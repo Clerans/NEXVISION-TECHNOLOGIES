@@ -1,0 +1,184 @@
+- generic [ref=f11e2]:
+  - banner [ref=f11e3]:
+    - generic [ref=f11e4]:
+      - link "NX NEXVISION TECHNOLOGIES" [ref=f11e5] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f11e6]: NX
+        - generic [ref=f11e9]:
+          - generic [ref=f11e10]: NEXVISION
+          - generic [ref=f11e11]: TECHNOLOGIES
+      - navigation "Main Navigation" [ref=f11e12]:
+        - button "Services" [ref=f11e14] [cursor=pointer]
+        - button "Solutions" [ref=f11e19] [cursor=pointer]
+        - link "Work" [ref=f11e23] [cursor=pointer]:
+          - /url: /work
+        - link "Process" [ref=f11e24] [cursor=pointer]:
+          - /url: /process
+        - link "About" [ref=f11e25] [cursor=pointer]:
+          - /url: /about
+        - link "Insights" [ref=f11e26] [cursor=pointer]:
+          - /url: /insights
+      - link "Start a Project" [ref=f11e30] [cursor=pointer]:
+        - /url: /contact
+  - main [ref=f11e35]:
+    - generic [ref=f11e36]:
+      - link "Back to All Work" [ref=f11e38] [cursor=pointer]:
+        - /url: /work
+      - generic [ref=f11e42]:
+        - generic [ref=f11e43]:
+          - generic [ref=f11e44]: Digital Commerce
+          - generic [ref=f11e46]: Internal Product
+          - generic [ref=f11e47]: In Production
+        - heading "SmartLanka Trade" [level=1] [ref=f11e50]
+        - paragraph [ref=f11e51]: A modern multi-vendor wholesale trading and digital commerce platform connecting regional suppliers with buyers.
+        - generic [ref=f11e52]:
+          - link "Discuss Similar Architecture" [ref=f11e53] [cursor=pointer]:
+            - /url: /contact
+          - link "Explore All Projects" [ref=f11e58] [cursor=pointer]:
+            - /url: /work
+      - generic [ref=f11e61]:
+        - generic [ref=f11e62]:
+          - paragraph [ref=f11e63]: Architecture
+          - paragraph [ref=f11e64]: Cloud-Native
+        - generic [ref=f11e65]:
+          - paragraph [ref=f11e66]: Target Latency
+          - paragraph [ref=f11e67]: < 80ms
+        - generic [ref=f11e68]:
+          - paragraph [ref=f11e69]: Platform Type
+          - paragraph [ref=f11e70]: B2B Marketplace
+      - generic [ref=f11e73]:
+        - generic [ref=f11e74]:
+          - text: System Overview & Problem Space
+          - heading "Engineering Architecture Under the Hood" [level=2] [ref=f11e75]
+          - paragraph [ref=f11e76]: SmartLanka Trade is a full-featured B2B wholesale platform engineered by NEXVISION TECHNOLOGIES. It features real-time inventory synchronization across multi-vendor storefronts, dynamic pricing tiers based on order volume, integrated payment gateways, and a responsive mobile management experience.
+          - generic [ref=f11e77]:
+            - heading "Reliability & Engineering Highlights" [level=3] [ref=f11e78]
+            - list [ref=f11e82]:
+              - listitem [ref=f11e83]:
+                - generic [ref=f11e87]: Vendor self-onboarding portal with automated KYC document upload
+              - listitem [ref=f11e88]:
+                - generic [ref=f11e92]: Dynamic wholesale volume-tier discount pricing calculations
+              - listitem [ref=f11e93]:
+                - generic [ref=f11e97]: Real-time order state machine with SMS and email notifications
+              - listitem [ref=f11e98]:
+                - generic [ref=f11e102]: Mobile-optimized dashboard for merchant order fulfillment
+        - generic [ref=f11e103]:
+          - generic [ref=f11e104]:
+            - heading "Technology Stack:" [level=3] [ref=f11e105]
+            - generic [ref=f11e106]:
+              - generic [ref=f11e107]: Next.js
+              - generic [ref=f11e109]: TypeScript
+              - generic [ref=f11e111]: Node.js
+              - generic [ref=f11e113]: PostgreSQL
+              - generic [ref=f11e115]: Tailwind CSS
+              - generic [ref=f11e117]: Redis
+          - generic [ref=f11e119]:
+            - heading "Deployment Profile" [level=3] [ref=f11e123]
+            - paragraph [ref=f11e124]: Deployed with automated CI/CD staging verification, database replication, and zero-downtime rolling upgrades.
+      - generic [ref=f11e126]:
+        - generic [ref=f11e127]: PROJECT INQUIRIES & ADVISORY
+        - heading "Have a Complex Problem Worth Solving?" [level=2] [ref=f11e131]
+        - paragraph [ref=f11e132]: Whether you are modernizing core enterprise systems, building a high-concurrency commerce platform, or architecting a mission-critical digital product, our senior team is ready.
+        - generic [ref=f11e133]:
+          - link "Start a Project Inquiry" [ref=f11e134] [cursor=pointer]:
+            - /url: /contact
+          - link "Review Engineering Process" [ref=f11e139] [cursor=pointer]:
+            - /url: /process
+        - generic [ref=f11e141]:
+          - generic [ref=f11e142]: 24-Hour Initial Response SLA
+          - generic [ref=f11e147]: Mutual NDA Guaranteed
+          - generic [ref=f11e152]: 100% IP & Code Ownership
+  - contentinfo [ref=f11e157]:
+    - generic [ref=f11e159]:
+      - generic [ref=f11e160]:
+        - generic [ref=f11e164]: All Engineering Systems Operational
+        - generic [ref=f11e165]: "| Latency: 24ms (Global Edge)"
+      - generic [ref=f11e166]:
+        - generic [ref=f11e167]: Next-Gen Enterprise Architecture
+        - link "Consult an Architect" [ref=f11e168] [cursor=pointer]:
+          - /url: /contact
+    - generic [ref=f11e172]:
+      - generic [ref=f11e173]:
+        - generic [ref=f11e174]:
+          - link "NX NEXVISION TECHNOLOGIES" [ref=f11e175] [cursor=pointer]:
+            - /url: /
+            - generic [ref=f11e176]: NX
+            - generic [ref=f11e178]:
+              - generic [ref=f11e179]: NEXVISION
+              - generic [ref=f11e180]: TECHNOLOGIES
+          - paragraph [ref=f11e181]: Engineering high-performance software, modern web platforms, and intelligent business systems for forward-thinking enterprises and ambitious startups.
+          - generic [ref=f11e182]:
+            - generic [ref=f11e183]: Next.js App Router
+            - generic [ref=f11e186]: Type-Safe Core
+        - generic [ref=f11e190]:
+          - heading "Services" [level=3] [ref=f11e191]
+          - list [ref=f11e192]:
+            - listitem [ref=f11e193]:
+              - link "Custom Software Development" [ref=f11e194] [cursor=pointer]:
+                - /url: /services/software-development
+            - listitem [ref=f11e195]:
+              - link "Web Application Development" [ref=f11e196] [cursor=pointer]:
+                - /url: /services/web-development
+            - listitem [ref=f11e197]:
+              - link "Mobile Application Development" [ref=f11e198] [cursor=pointer]:
+                - /url: /services/mobile-app-development
+            - listitem [ref=f11e199]:
+              - link "Business Management Systems" [ref=f11e200] [cursor=pointer]:
+                - /url: /services/business-management-systems
+            - listitem [ref=f11e201]:
+              - link "E-Commerce Solutions" [ref=f11e202] [cursor=pointer]:
+                - /url: /services/ecommerce-solutions
+            - listitem [ref=f11e203]:
+              - link "UI/UX Design & Design Systems" [ref=f11e204] [cursor=pointer]:
+                - /url: /services/ui-ux-design
+            - listitem [ref=f11e205]:
+              - link "View All 8 Services →" [ref=f11e206] [cursor=pointer]:
+                - /url: /services
+        - generic [ref=f11e207]:
+          - heading "Solutions & Work" [level=3] [ref=f11e208]
+          - list [ref=f11e209]:
+            - listitem [ref=f11e210]:
+              - link "Solution Archetypes" [ref=f11e211] [cursor=pointer]:
+                - /url: /solutions
+            - listitem [ref=f11e212]:
+              - link "Work & Systems" [ref=f11e213] [cursor=pointer]:
+                - /url: /work
+            - listitem [ref=f11e214]:
+              - link "7-Step Delivery Process" [ref=f11e215] [cursor=pointer]:
+                - /url: /process
+            - listitem [ref=f11e216]:
+              - link "Engineering Insights" [ref=f11e217] [cursor=pointer]:
+                - /url: /insights
+            - listitem [ref=f11e218]:
+              - link "About & Culture" [ref=f11e219] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=f11e220]:
+              - link "Start a Project" [ref=f11e221] [cursor=pointer]:
+                - /url: /contact
+        - generic [ref=f11e222]:
+          - heading "Legal & Trust" [level=3] [ref=f11e223]
+          - list [ref=f11e224]:
+            - listitem [ref=f11e225]:
+              - link "Privacy Policy" [ref=f11e226] [cursor=pointer]:
+                - /url: /privacy-policy
+            - listitem [ref=f11e227]:
+              - link "Terms of Service" [ref=f11e228] [cursor=pointer]:
+                - /url: /terms-of-service
+            - listitem [ref=f11e229]:
+              - link "Cookie Policy" [ref=f11e230] [cursor=pointer]:
+                - /url: /cookie-policy
+            - listitem [ref=f11e231]:
+              - link "Cookie Preferences" [ref=f11e232] [cursor=pointer]:
+                - /url: /cookie-preferences
+            - listitem [ref=f11e233]:
+              - link "Legal Disclaimer" [ref=f11e234] [cursor=pointer]:
+                - /url: /disclaimer
+            - listitem [ref=f11e235]:
+              - link "Accessibility Statement" [ref=f11e236] [cursor=pointer]:
+                - /url: /accessibility
+      - generic [ref=f11e237]:
+        - paragraph [ref=f11e238]: © 2026 NEXVISION TECHNOLOGIES. All rights reserved.
+        - generic [ref=f11e239]:
+          - generic [ref=f11e240]: Dual-Theme Adaptive
+          - generic [ref=f11e241]: WCAG 2.1 AA Compliant
+          - generic [ref=f11e242]: Global Edge Infrastructure
