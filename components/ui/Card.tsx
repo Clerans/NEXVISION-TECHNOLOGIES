@@ -16,8 +16,8 @@ export function Card({
   return (
     <div
       className={cn(
-        "relative rounded-xl border border-white/[0.08] bg-surface-200/90 p-6 backdrop-blur-md overflow-hidden transition-all duration-300",
-        hoverEffect && "hover:border-white/20 hover:bg-surface-100/90 hover:shadow-xl hover:shadow-indigo-500/5",
+        "relative rounded-xl border border-border-subtle bg-theme-surface/90 text-theme-primary p-6 backdrop-blur-md overflow-hidden transition-all duration-300",
+        hoverEffect && "hover:border-border-medium hover:bg-theme-elevated/80 hover:shadow-xl hover:shadow-accent-indigo/5",
         glow && "card-glow",
         className
       )}
@@ -47,7 +47,7 @@ export function CardTitle({
 }: React.HTMLAttributes<HTMLHeadingElement>) {
   return (
     <h3
-      className={cn("text-xl font-semibold tracking-tight text-white", className)}
+      className={cn("text-xl font-semibold tracking-tight text-theme-primary", className)}
       {...props}
     >
       {children}
@@ -61,7 +61,7 @@ export function CardDescription({
   ...props
 }: React.HTMLAttributes<HTMLParagraphElement>) {
   return (
-    <p className={cn("text-sm text-slate-400 leading-relaxed", className)} {...props}>
+    <p className={cn("text-sm text-theme-muted leading-relaxed", className)} {...props}>
       {children}
     </p>
   );
@@ -73,7 +73,7 @@ export function CardContent({
   ...props
 }: React.HTMLAttributes<HTMLDivElement>) {
   return (
-    <div className={cn("text-slate-300", className)} {...props}>
+    <div className={cn("text-theme-secondary", className)} {...props}>
       {children}
     </div>
   );

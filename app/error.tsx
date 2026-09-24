@@ -17,21 +17,21 @@ export default function Error({
   }, [error]);
 
   return (
-    <div className="min-h-[70vh] flex flex-col items-center justify-center p-6 text-center">
+    <div className="min-h-[70vh] bg-theme-void flex flex-col items-center justify-center p-6 text-center transition-colors">
       <div className="max-w-md space-y-6">
-        <div className="w-14 h-14 rounded-2xl bg-rose-500/10 border border-rose-500/30 text-rose-400 flex items-center justify-center mx-auto">
+        <div className="w-14 h-14 rounded-2xl bg-rose-500/10 border border-rose-500/30 text-rose-600 dark:text-rose-400 flex items-center justify-center mx-auto">
           <AlertCircle className="w-7 h-7" />
         </div>
 
-        <Badge variant="outline" className="text-rose-400 border-rose-500/30">
+        <Badge variant="outline" className="text-rose-600 dark:text-rose-400 border-rose-500/30">
           RUNTIME FAULT DETECTED
         </Badge>
 
         <div className="space-y-2">
-          <h1 className="text-2xl sm:text-3xl font-bold text-white tracking-tight">
+          <h1 className="text-2xl sm:text-3xl font-bold text-theme-primary tracking-tight">
             An Unexpected System Exception Occurred
           </h1>
-          <p className="text-sm text-slate-400 leading-relaxed">
+          <p className="text-sm text-theme-muted leading-relaxed">
             Our automated telemetry has logged this exception. You may attempt to recover the segment state below.
           </p>
         </div>

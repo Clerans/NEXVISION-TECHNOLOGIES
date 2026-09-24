@@ -10,14 +10,26 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "#050505",
-        surface: {
-          50: "#1a1a24",
-          100: "#14141c",
-          200: "#0f0f16",
-          300: "#0b0b10",
-          400: "#08080c",
-          500: "#050505",
+        theme: {
+          void: "var(--bg-void)",
+          base: "var(--bg-base)",
+          surface: "var(--bg-surface)",
+          elevated: "var(--bg-elevated)",
+          highlight: "var(--bg-highlight)",
+          primary: "var(--text-primary)",
+          secondary: "var(--text-secondary)",
+          muted: "var(--text-muted)",
+        },
+        accent: {
+          blue: "var(--accent-blue)",
+          indigo: "var(--accent-indigo)",
+          cyan: "var(--accent-cyan)",
+          emerald: "var(--accent-emerald)",
+        },
+        border: {
+          subtle: "var(--border-subtle)",
+          medium: "var(--border-medium)",
+          glow: "var(--border-highlight)",
         },
         brand: {
           blue: "#2563eb",
@@ -27,11 +39,6 @@ const config: Config = {
           cyan: "#06b6d4",
           emerald: "#10b981",
         },
-        border: {
-          subtle: "rgba(255, 255, 255, 0.08)",
-          medium: "rgba(255, 255, 255, 0.15)",
-          glow: "rgba(99, 102, 241, 0.35)",
-        }
       },
       fontFamily: {
         sans: ["var(--font-inter)", "system-ui", "-apple-system", "sans-serif"],
@@ -46,17 +53,16 @@ const config: Config = {
       keyframes: {
         float: {
           "0%, 100%": { transform: "translateY(0px)" },
-          "50%": { transform: "translateY(-10px)" },
+          "50%": { transform: "translateY(-8px)" },
         },
         glowFade: {
-          "0%": { opacity: "0.4" },
-          "100%": { opacity: "0.8" },
+          "0%": { opacity: "0.35" },
+          "100%": { opacity: "0.85" },
         },
       },
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "radial-highlight": "radial-gradient(circle at 50% 0%, rgba(99, 102, 241, 0.15) 0%, rgba(5, 5, 5, 0) 70%)",
-        "grid-pattern": "linear-gradient(to right, rgba(255, 255, 255, 0.04) 1px, transparent 1px), linear-gradient(to bottom, rgba(255, 255, 255, 0.04) 1px, transparent 1px)",
+        "radial-highlight": "radial-gradient(circle at 50% 0%, var(--gradient-highlight-start) 0%, transparent 70%)",
+        "grid-pattern": "linear-gradient(to right, var(--grid-line) 1px, transparent 1px), linear-gradient(to bottom, var(--grid-line) 1px, transparent 1px)",
       },
     },
   },

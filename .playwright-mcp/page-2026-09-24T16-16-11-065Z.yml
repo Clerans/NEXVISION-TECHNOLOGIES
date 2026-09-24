@@ -1,0 +1,631 @@
+- generic [ref=f7e2]:
+  - banner [ref=f7e3]:
+    - generic [ref=f7e4]:
+      - link "NX NEXVISION TECHNOLOGIES" [ref=f7e5] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f7e6]: NX
+        - generic [ref=f7e9]:
+          - generic [ref=f7e10]: NEXVISION
+          - generic [ref=f7e11]: TECHNOLOGIES
+      - navigation "Main Navigation" [ref=f7e12]:
+        - button "Services" [ref=f7e14] [cursor=pointer]
+        - button "Solutions" [ref=f7e19] [cursor=pointer]
+        - link "Work" [ref=f7e23] [cursor=pointer]:
+          - /url: /work
+        - link "Process" [ref=f7e24] [cursor=pointer]:
+          - /url: /process
+        - link "About" [ref=f7e25] [cursor=pointer]:
+          - /url: /about
+        - link "Insights" [ref=f7e26] [cursor=pointer]:
+          - /url: /insights
+      - link "Start a Project" [ref=f7e30] [cursor=pointer]:
+        - /url: /contact
+  - main [ref=f7e35]:
+    - generic [ref=f7e37]:
+      - generic [ref=f7e38]: ENGINEERING INTELLIGENT DIGITAL REALITIES
+      - heading "We Engineer What Comes Next." [level=1] [ref=f7e43]
+      - paragraph [ref=f7e44]: NEXVISION TECHNOLOGIES transforms ambitious ideas into resilient software systems, intelligent digital products, and scalable business infrastructure.
+      - generic [ref=f7e45]:
+        - link "Start a Project" [ref=f7e46] [cursor=pointer]:
+          - /url: /contact
+        - link "Explore Our Work" [ref=f7e51] [cursor=pointer]:
+          - /url: /work
+      - generic [ref=f7e53]:
+        - generic [ref=f7e54]:
+          - generic [ref=f7e55]: "nexvision-core-cluster :: live.telemetry.ts"
+          - generic [ref=f7e60]:
+            - generic [ref=f7e61]: LATENCY 24MS
+            - generic [ref=f7e64]: 99.99% UPTIME
+        - generic [ref=f7e66]:
+          - generic [ref=f7e67]:
+            - generic [ref=f7e68]:
+              - generic [ref=f7e69]: Edge Velocity
+              - generic [ref=f7e72]: 100 / 100
+            - paragraph [ref=f7e73]: Next.js Edge Runtime
+            - paragraph [ref=f7e74]: Sub-second initial page rendering with zero hydration overhead and edge CDN caching.
+          - generic [ref=f7e75]:
+            - generic [ref=f7e76]:
+              - generic [ref=f7e77]: Type Safety
+              - generic [ref=f7e81]: 100% Strict
+            - paragraph [ref=f7e82]: End-to-End Integrity
+            - paragraph [ref=f7e83]: Strict TypeScript from database migrations to UI components with automated Zod validation.
+          - generic [ref=f7e84]:
+            - generic [ref=f7e85]:
+              - generic [ref=f7e86]: Core Systems
+              - generic [ref=f7e90]: Resilient
+            - paragraph [ref=f7e91]: Distributed Cloud Core
+            - paragraph [ref=f7e92]: PostgreSQL clustering, Redis transactional queues, and self-healing container topologies.
+    - generic [ref=f7e94]:
+      - generic [ref=f7e95]:
+        - generic [ref=f7e96]:
+          - generic [ref=f7e97]: Engineering Positioning
+          - heading "A Disciplined Alternative to Superficial Software Development" [level=2] [ref=f7e98]
+        - link "Our Engineering Manifesto" [ref=f7e99] [cursor=pointer]:
+          - /url: /about
+      - generic [ref=f7e102]:
+        - generic [ref=f7e104]:
+          - generic [ref=f7e105]: PILLAR 01
+          - heading "Architectural Precision" [level=3] [ref=f7e111]
+          - paragraph [ref=f7e112]: Zero technical debt by design
+          - paragraph [ref=f7e113]: We build on solid foundations. Clean domain boundaries, strict static type safety, and modular services eliminate compounding maintenance friction before it starts.
+        - generic [ref=f7e115]:
+          - generic [ref=f7e116]: PILLAR 02
+          - heading "Product-Focused Design" [level=3] [ref=f7e121]
+          - paragraph [ref=f7e122]: Ergonomics meets executive aesthetic
+          - paragraph [ref=f7e123]: High-performance software must feel responsive, intuitive, and visually exceptional. We balance architectural rigor with fluid 60fps micro-interactions.
+        - generic [ref=f7e125]:
+          - generic [ref=f7e126]: PILLAR 03
+          - heading "Full-Cycle Engineering" [level=3] [ref=f7e133]
+          - paragraph [ref=f7e134]: From concept to global edge deployment
+          - paragraph [ref=f7e135]: "We manage the complete software lifecycle: domain modeling, test-driven sprints, automated CI/CD pipelines, staging environments, and telemetry monitoring."
+        - generic [ref=f7e137]:
+          - generic [ref=f7e138]: PILLAR 04
+          - heading "Long-Term Reliability" [level=3] [ref=f7e144]
+          - paragraph [ref=f7e145]: 100% client code & IP ownership
+          - paragraph [ref=f7e146]: Every line of source code, database migration, and infrastructure script belongs to your organization from day one, built on open, non-proprietary standards.
+    - generic [ref=f7e148]:
+      - generic [ref=f7e149]:
+        - generic [ref=f7e150]: Core Specializations
+        - heading "End-to-End Technology Capabilities" [level=2] [ref=f7e151]
+        - paragraph [ref=f7e152]: We bridge strategic architecture, modern aesthetics, and software rigor to build digital solutions tailored to enterprise scale.
+      - generic [ref=f7e153]:
+        - link "Custom Software Development Resilient backend engines and bespoke enterprise platforms End-to-end bespoke software engineering designed for high throughput, maintainable architectures, and enterprise reliability. Node.js TypeScript Go" [ref=f7e154] [cursor=pointer]:
+          - /url: /services/software-development
+          - generic [ref=f7e155]:
+            - generic [ref=f7e156]:
+              - generic [ref=f7e167]:
+                - heading "Custom Software Development" [level=3] [ref=f7e168]
+                - paragraph [ref=f7e169]: Resilient backend engines and bespoke enterprise platforms
+              - paragraph [ref=f7e170]: End-to-end bespoke software engineering designed for high throughput, maintainable architectures, and enterprise reliability.
+            - generic [ref=f7e171]:
+              - generic [ref=f7e172]: Node.js
+              - generic [ref=f7e174]: TypeScript
+              - generic [ref=f7e176]: Go
+        - link "Web Application Development Ultra-fast Next.js, React, and modern web platforms Luminous, high-performance web applications built on Next.js App Router, React Server Components, and edge-native pipelines. Next.js React TypeScript" [ref=f7e178] [cursor=pointer]:
+          - /url: /services/web-development
+          - generic [ref=f7e179]:
+            - generic [ref=f7e180]:
+              - generic [ref=f7e190]:
+                - heading "Web Application Development" [level=3] [ref=f7e191]
+                - paragraph [ref=f7e192]: Ultra-fast Next.js, React, and modern web platforms
+              - paragraph [ref=f7e193]: Luminous, high-performance web applications built on Next.js App Router, React Server Components, and edge-native pipelines.
+            - generic [ref=f7e194]:
+              - generic [ref=f7e195]: Next.js
+              - generic [ref=f7e197]: React
+              - generic [ref=f7e199]: TypeScript
+        - link "Mobile Application Development Native iOS & Android experiences and cross-platform excellence Smooth, responsive mobile applications that deliver native performance, gesture interactions, and reliable offline capabilities. React Native Flutter Expo" [ref=f7e201] [cursor=pointer]:
+          - /url: /services/mobile-app-development
+          - generic [ref=f7e202]:
+            - generic [ref=f7e203]:
+              - generic [ref=f7e212]:
+                - heading "Mobile Application Development" [level=3] [ref=f7e213]
+                - paragraph [ref=f7e214]: Native iOS & Android experiences and cross-platform excellence
+              - paragraph [ref=f7e215]: Smooth, responsive mobile applications that deliver native performance, gesture interactions, and reliable offline capabilities.
+            - generic [ref=f7e216]:
+              - generic [ref=f7e217]: React Native
+              - generic [ref=f7e219]: Flutter
+              - generic [ref=f7e221]: Expo
+        - link "Business Management Systems Custom ERP, POS, inventory, and operational workflow engines Tailored ERP, CRM, Point of Sale, and operational management systems built to streamline enterprise operations and eliminate manual friction. PostgreSQL Node.js React" [ref=f7e223] [cursor=pointer]:
+          - /url: /services/business-management-systems
+          - generic [ref=f7e224]:
+            - generic [ref=f7e225]:
+              - generic [ref=f7e236]:
+                - heading "Business Management Systems" [level=3] [ref=f7e237]
+                - paragraph [ref=f7e238]: Custom ERP, POS, inventory, and operational workflow engines
+              - paragraph [ref=f7e239]: Tailored ERP, CRM, Point of Sale, and operational management systems built to streamline enterprise operations and eliminate manual friction.
+            - generic [ref=f7e240]:
+              - generic [ref=f7e241]: PostgreSQL
+              - generic [ref=f7e243]: Node.js
+              - generic [ref=f7e245]: React
+        - link "E-Commerce Solutions High-conversion storefronts, multi-vendor marketplaces & checkout pipelines Engineered for high concurrency, instant search, frictionless checkout, and seamless payment gateway integrations. Next.js Shopify Headless MedusaJS" [ref=f7e247] [cursor=pointer]:
+          - /url: /services/ecommerce-solutions
+          - generic [ref=f7e248]:
+            - generic [ref=f7e249]:
+              - generic [ref=f7e259]:
+                - heading "E-Commerce Solutions" [level=3] [ref=f7e260]
+                - paragraph [ref=f7e261]: High-conversion storefronts, multi-vendor marketplaces & checkout pipelines
+              - paragraph [ref=f7e262]: Engineered for high concurrency, instant search, frictionless checkout, and seamless payment gateway integrations.
+            - generic [ref=f7e263]:
+              - generic [ref=f7e264]: Next.js
+              - generic [ref=f7e266]: Shopify Headless
+              - generic [ref=f7e268]: MedusaJS
+        - link "UI/UX Design & Design Systems Editorial aesthetics, comprehensive token systems, and user journeys Crafting digital interfaces that merge sophisticated visual aesthetics with effortless usability and measurable user engagement. Figma Tailwind CSS Framer Motion" [ref=f7e270] [cursor=pointer]:
+          - /url: /services/ui-ux-design
+          - generic [ref=f7e271]:
+            - generic [ref=f7e272]:
+              - generic [ref=f7e281]:
+                - heading "UI/UX Design & Design Systems" [level=3] [ref=f7e282]
+                - paragraph [ref=f7e283]: Editorial aesthetics, comprehensive token systems, and user journeys
+              - paragraph [ref=f7e284]: Crafting digital interfaces that merge sophisticated visual aesthetics with effortless usability and measurable user engagement.
+            - generic [ref=f7e285]:
+              - generic [ref=f7e286]: Figma
+              - generic [ref=f7e288]: Tailwind CSS
+              - generic [ref=f7e290]: Framer Motion
+        - link "Cloud Solutions & Infrastructure Scalable AWS/GCP cloud environments, Docker containers, and CI/CD pipelines Cloud-native infrastructure, automated container deployment, database clustering, and 24/7 reliability engineering. AWS Google Cloud Vercel" [ref=f7e292] [cursor=pointer]:
+          - /url: /services/cloud-solutions
+          - generic [ref=f7e293]:
+            - generic [ref=f7e294]:
+              - generic [ref=f7e303]:
+                - heading "Cloud Solutions & Infrastructure" [level=3] [ref=f7e304]
+                - paragraph [ref=f7e305]: Scalable AWS/GCP cloud environments, Docker containers, and CI/CD pipelines
+              - paragraph [ref=f7e306]: Cloud-native infrastructure, automated container deployment, database clustering, and 24/7 reliability engineering.
+            - generic [ref=f7e307]:
+              - generic [ref=f7e308]: AWS
+              - generic [ref=f7e310]: Google Cloud
+              - generic [ref=f7e312]: Vercel
+        - link "IT Consulting & Digital Strategy Strategic technology roadmaps, architecture reviews, and modernization guidance Strategic technical leadership to help executives evaluate technologies, eliminate technical debt, and execute digital transformation initiatives. Architecture Modeling Security Auditing Next.js" [ref=f7e314] [cursor=pointer]:
+          - /url: /services/it-consulting
+          - generic [ref=f7e315]:
+            - generic [ref=f7e316]:
+              - generic [ref=f7e326]:
+                - heading "IT Consulting & Digital Strategy" [level=3] [ref=f7e327]
+                - paragraph [ref=f7e328]: Strategic technology roadmaps, architecture reviews, and modernization guidance
+              - paragraph [ref=f7e329]: Strategic technical leadership to help executives evaluate technologies, eliminate technical debt, and execute digital transformation initiatives.
+            - generic [ref=f7e330]:
+              - generic [ref=f7e331]: Architecture Modeling
+              - generic [ref=f7e333]: Security Auditing
+              - generic [ref=f7e335]: Next.js
+      - link "Explore All Capabilities & Deliverables" [ref=f7e338] [cursor=pointer]:
+        - /url: /services
+    - generic [ref=f7e342]:
+      - generic [ref=f7e343]:
+        - generic [ref=f7e344]: Targeted Solution Archetypes
+        - heading "Scalable Systems for Complex Business Operations" [level=2] [ref=f7e345]
+        - paragraph [ref=f7e346]: Whether you require an enterprise ERP core, an offline-first retail POS system, or a high-concurrency B2B trading engine, our architectures deliver sustained operational leverage.
+      - generic [ref=f7e347]:
+        - generic [ref=f7e348]:
+          - generic [ref=f7e349]:
+            - generic [ref=f7e356]:
+              - heading "Enterprise Management Platforms" [level=3] [ref=f7e357]
+              - paragraph [ref=f7e358]: Unified operational command centers for growing organizations
+            - paragraph [ref=f7e359]: End-to-end software platforms uniting procurement, real-time inventory, financial reporting, and employee workflows into a single synchronized interface.
+            - generic [ref=f7e360]:
+              - paragraph [ref=f7e361]: "Key Capabilities:"
+              - list [ref=f7e362]:
+                - listitem [ref=f7e363]:
+                  - generic [ref=f7e367]: Real-time multi-branch inventory tracking
+                - listitem [ref=f7e368]:
+                  - generic [ref=f7e372]: Automated purchase order workflows and approvals
+                - listitem [ref=f7e373]:
+                  - generic [ref=f7e377]: Granular role-based access control (RBAC)
+                - listitem [ref=f7e378]:
+                  - generic [ref=f7e382]: Exportable financial accounting and audit reports
+          - generic [ref=f7e383]:
+            - generic [ref=f7e384]: Mid-market enterprises, wholesale distributors, and multi-location businesses.
+            - link "Discuss Solution" [ref=f7e385] [cursor=pointer]:
+              - /url: /contact
+        - generic [ref=f7e388]:
+          - generic [ref=f7e389]:
+            - generic [ref=f7e397]:
+              - heading "Cloud-Connected POS & Retail Systems" [level=3] [ref=f7e398]
+              - paragraph [ref=f7e399]: High-speed cashier registers with offline-first durability
+            - paragraph [ref=f7e400]: Point of Sale software designed for fast-paced retail and hospitality environments, ensuring zero downtime even during internet outages.
+            - generic [ref=f7e401]:
+              - paragraph [ref=f7e402]: "Key Capabilities:"
+              - list [ref=f7e403]:
+                - listitem [ref=f7e404]:
+                  - generic [ref=f7e408]: Instant barcode scanning & touch register layout
+                - listitem [ref=f7e409]:
+                  - generic [ref=f7e413]: Offline register transactions with automatic sync upon reconnect
+                - listitem [ref=f7e414]:
+                  - generic [ref=f7e418]: Direct integration with thermal receipt printers and cash drawers
+                - listitem [ref=f7e419]:
+                  - generic [ref=f7e423]: Daily shift reconciliation and cashier discrepancy tracking
+          - generic [ref=f7e424]:
+            - generic [ref=f7e425]: Supermarkets, retail chains, dining establishments, and service hubs.
+            - link "Discuss Solution" [ref=f7e426] [cursor=pointer]:
+              - /url: /contact
+        - generic [ref=f7e429]:
+          - generic [ref=f7e430]:
+            - generic [ref=f7e437]:
+              - heading "Digital Commerce & B2B Wholesale Marketplaces" [level=3] [ref=f7e438]
+              - paragraph [ref=f7e439]: High-concurrency digital trade platforms with custom pricing tiers
+            - paragraph [ref=f7e440]: Scalable marketplace platforms connecting manufacturers, wholesale buyers, and distributors with negotiated pricing tiers and automated order processing.
+            - generic [ref=f7e441]:
+              - paragraph [ref=f7e442]: "Key Capabilities:"
+              - list [ref=f7e443]:
+                - listitem [ref=f7e444]:
+                  - generic [ref=f7e448]: Multi-vendor seller portals and product catalogs
+                - listitem [ref=f7e449]:
+                  - generic [ref=f7e453]: Tiered wholesale volume pricing and credit terms
+                - listitem [ref=f7e454]:
+                  - generic [ref=f7e458]: Automated invoice generation and payment tracking
+                - listitem [ref=f7e459]:
+                  - generic [ref=f7e463]: Integrated shipping carrier rate calculations
+          - generic [ref=f7e464]:
+            - generic [ref=f7e465]: B2B suppliers, e-commerce brands, and digital distributors.
+            - link "Discuss Solution" [ref=f7e466] [cursor=pointer]:
+              - /url: /contact
+        - generic [ref=f7e469]:
+          - generic [ref=f7e470]:
+            - generic [ref=f7e475]:
+              - heading "Workflow Automation & Intelligent Integrations" [level=3] [ref=f7e476]
+              - paragraph [ref=f7e477]: Eliminate repetitive manual data entry and synchronize business silos
+            - paragraph [ref=f7e478]: Custom automation pipelines that bridge external APIs, internal databases, and communication channels to accelerate operational throughput.
+            - generic [ref=f7e479]:
+              - paragraph [ref=f7e480]: "Key Capabilities:"
+              - list [ref=f7e481]:
+                - listitem [ref=f7e482]:
+                  - generic [ref=f7e486]: Automated document processing and data extraction
+                - listitem [ref=f7e487]:
+                  - generic [ref=f7e491]: Trigger-based notifications (SMS, WhatsApp, Email, Slack)
+                - listitem [ref=f7e492]:
+                  - generic [ref=f7e496]: Automated reconciliation between payment gateways and bank feeds
+                - listitem [ref=f7e497]:
+                  - generic [ref=f7e501]: Scheduled background data aggregation jobs
+          - generic [ref=f7e502]:
+            - generic [ref=f7e503]: Companies looking to eliminate operational friction and manual errors.
+            - link "Discuss Solution" [ref=f7e504] [cursor=pointer]:
+              - /url: /contact
+    - generic [ref=f7e508]:
+      - generic [ref=f7e509]:
+        - generic [ref=f7e510]: Verified Product Engineering
+        - heading "Selected Systems & Architectural Implementations" [level=2] [ref=f7e511]
+        - paragraph [ref=f7e512]: A look at platforms engineered by NEXVISION TECHNOLOGIES across enterprise management, digital wholesale trade, and resilient retail point of sale.
+      - generic [ref=f7e513]:
+        - generic [ref=f7e514]:
+          - generic [ref=f7e515]:
+            - generic [ref=f7e516]:
+              - generic [ref=f7e517]:
+                - generic [ref=f7e518]: Digital Commerce
+                - generic [ref=f7e520]: Internal Product
+              - generic [ref=f7e521]: In Production
+            - heading "SmartLanka Trade" [level=3] [ref=f7e524]
+            - paragraph [ref=f7e525]: SmartLanka Trade is a full-featured B2B wholesale platform engineered by NEXVISION TECHNOLOGIES. It features real-time inventory synchronization across multi-vendor storefronts, dynamic pricing tiers based on order volume, integrated payment gateways, and a responsive mobile management experience.
+            - generic [ref=f7e526]:
+              - generic [ref=f7e527]:
+                - paragraph [ref=f7e528]: Architecture
+                - paragraph [ref=f7e529]: Cloud-Native
+              - generic [ref=f7e530]:
+                - paragraph [ref=f7e531]: Target Latency
+                - paragraph [ref=f7e532]: < 80ms
+              - generic [ref=f7e533]:
+                - paragraph [ref=f7e534]: Platform Type
+                - paragraph [ref=f7e535]: B2B Marketplace
+            - generic [ref=f7e536]:
+              - paragraph [ref=f7e537]: "Engineering Highlights:"
+              - list [ref=f7e538]:
+                - listitem [ref=f7e539]:
+                  - generic [ref=f7e543]: Vendor self-onboarding portal with automated KYC document upload
+                - listitem [ref=f7e544]:
+                  - generic [ref=f7e548]: Dynamic wholesale volume-tier discount pricing calculations
+                - listitem [ref=f7e549]:
+                  - generic [ref=f7e553]: Real-time order state machine with SMS and email notifications
+                - listitem [ref=f7e554]:
+                  - generic [ref=f7e558]: Mobile-optimized dashboard for merchant order fulfillment
+          - generic [ref=f7e559]:
+            - generic [ref=f7e560]:
+              - generic [ref=f7e561]: Next.js
+              - generic [ref=f7e563]: TypeScript
+              - generic [ref=f7e565]: Node.js
+              - generic [ref=f7e567]: PostgreSQL
+              - generic [ref=f7e569]: Tailwind CSS
+              - generic [ref=f7e571]: Redis
+            - link "Case Overview" [ref=f7e573] [cursor=pointer]:
+              - /url: /work/smartlanka-trade
+        - generic [ref=f7e576]:
+          - generic [ref=f7e577]:
+            - generic [ref=f7e578]:
+              - generic [ref=f7e579]:
+                - generic [ref=f7e580]: Enterprise System
+                - generic [ref=f7e582]: Proprietary Platform
+              - generic [ref=f7e583]: Live & Active
+            - heading "NEXUSPOS Retail Engine" [level=3] [ref=f7e586]
+            - paragraph [ref=f7e587]: NEXUSPOS was designed from the ground up to solve the critical vulnerability of internet outages in retail environments. Cashiers can continue scanning, discounting, and billing without interruption; all transactions are encrypted in local storage and automatically synchronized when connectivity is restored.
+            - generic [ref=f7e588]:
+              - generic [ref=f7e589]:
+                - paragraph [ref=f7e590]: Offline Durability
+                - paragraph [ref=f7e591]: 100% Uptime
+              - generic [ref=f7e592]:
+                - paragraph [ref=f7e593]: Transaction Speed
+                - paragraph [ref=f7e594]: < 1.2s avg
+              - generic [ref=f7e595]:
+                - paragraph [ref=f7e596]: Multi-Register
+                - paragraph [ref=f7e597]: Synchronized
+            - generic [ref=f7e598]:
+              - paragraph [ref=f7e599]: "Engineering Highlights:"
+              - list [ref=f7e600]:
+                - listitem [ref=f7e601]:
+                  - generic [ref=f7e605]: Offline-first transactional local cache with background sync daemon
+                - listitem [ref=f7e606]:
+                  - generic [ref=f7e610]: Direct hardware integration with barcode scanners and ESC/POS receipt printers
+                - listitem [ref=f7e611]:
+                  - generic [ref=f7e615]: Multi-counter cash drawer reconciliation with shift handover reports
+                - listitem [ref=f7e616]:
+                  - generic [ref=f7e620]: Centralized cloud reporting dashboard for multi-store franchise managers
+          - generic [ref=f7e621]:
+            - generic [ref=f7e622]:
+              - generic [ref=f7e623]: React
+              - generic [ref=f7e625]: TypeScript
+              - generic [ref=f7e627]: Electron / Web
+              - generic [ref=f7e629]: SQLite
+              - generic [ref=f7e631]: Node.js
+              - generic [ref=f7e633]: Tailwind CSS
+            - link "Case Overview" [ref=f7e635] [cursor=pointer]:
+              - /url: /work/nexus-pos
+        - generic [ref=f7e638]:
+          - generic [ref=f7e639]:
+            - generic [ref=f7e640]:
+              - generic [ref=f7e641]:
+                - generic [ref=f7e642]: Management Platform
+                - generic [ref=f7e644]: Enterprise Partner
+              - generic [ref=f7e645]: Live & Active
+            - heading "TEZLAA Management System" [level=3] [ref=f7e648]
+            - paragraph [ref=f7e649]: The TEZLAA platform consolidates resource dispatching, job scheduling, customer service records, and automated invoicing into a unified web application. It eliminates spreadsheet-based tracking and gives management complete operational visibility.
+            - generic [ref=f7e650]:
+              - generic [ref=f7e651]:
+                - paragraph [ref=f7e652]: Workflow Automation
+                - paragraph [ref=f7e653]: End-to-End
+              - generic [ref=f7e654]:
+                - paragraph [ref=f7e655]: Data Integrity
+                - paragraph [ref=f7e656]: Audit-Logged
+              - generic [ref=f7e657]:
+                - paragraph [ref=f7e658]: Security
+                - paragraph [ref=f7e659]: RBAC Enforced
+            - generic [ref=f7e660]:
+              - paragraph [ref=f7e661]: "Engineering Highlights:"
+              - list [ref=f7e662]:
+                - listitem [ref=f7e663]:
+                  - generic [ref=f7e667]: Interactive dispatch schedule calendar with real-time assignment updates
+                - listitem [ref=f7e668]:
+                  - generic [ref=f7e672]: Customer history timeline with attached service records and invoices
+                - listitem [ref=f7e673]:
+                  - generic [ref=f7e677]: Automated recurring billing generation with PDF invoice delivery
+                - listitem [ref=f7e678]:
+                  - generic [ref=f7e682]: Granular role-based permissions for administrators, dispatchers, and field technicians
+          - generic [ref=f7e683]:
+            - generic [ref=f7e684]:
+              - generic [ref=f7e685]: Next.js
+              - generic [ref=f7e687]: TypeScript
+              - generic [ref=f7e689]: PostgreSQL
+              - generic [ref=f7e691]: Prisma
+              - generic [ref=f7e693]: Tailwind CSS
+              - generic [ref=f7e695]: Docker
+            - link "Case Overview" [ref=f7e697] [cursor=pointer]:
+              - /url: /work/tezlaa-management
+        - generic [ref=f7e700]:
+          - generic [ref=f7e701]:
+            - generic [ref=f7e702]:
+              - generic [ref=f7e703]:
+                - generic [ref=f7e704]: Concept Lab
+                - generic [ref=f7e706]: Concept Architecture
+              - generic [ref=f7e707]: Architecture Validated
+            - heading "NEXVISION Cloud Core" [level=3] [ref=f7e710]
+            - paragraph [ref=f7e711]: A reference architecture created by NEXVISION engineers exploring low-latency event-driven microservices, distributed Redis queuing, and automated multi-region database failover.
+            - generic [ref=f7e712]:
+              - generic [ref=f7e713]:
+                - paragraph [ref=f7e714]: Throughput Goal
+                - paragraph [ref=f7e715]: 10,000 req/s
+              - generic [ref=f7e716]:
+                - paragraph [ref=f7e717]: Failover Target
+                - paragraph [ref=f7e718]: < 500ms
+              - generic [ref=f7e719]:
+                - paragraph [ref=f7e720]: Paradigm
+                - paragraph [ref=f7e721]: Event-Driven
+            - generic [ref=f7e722]:
+              - paragraph [ref=f7e723]: "Engineering Highlights:"
+              - list [ref=f7e724]:
+                - listitem [ref=f7e725]:
+                  - generic [ref=f7e729]: Event-driven architecture with idempotent message processing
+                - listitem [ref=f7e730]:
+                  - generic [ref=f7e734]: Automated health-check probes and self-healing container orchestrations
+                - listitem [ref=f7e735]:
+                  - generic [ref=f7e739]: Declarative Infrastructure as Code (IaC) configuration scripts
+          - generic [ref=f7e740]:
+            - generic [ref=f7e741]:
+              - generic [ref=f7e742]: Go
+              - generic [ref=f7e744]: Node.js
+              - generic [ref=f7e746]: Docker
+              - generic [ref=f7e748]: Kubernetes
+              - generic [ref=f7e750]: Kafka
+              - generic [ref=f7e752]: PostgreSQL
+            - link "Case Overview" [ref=f7e754] [cursor=pointer]:
+              - /url: /work/cloud-nexus-engine
+      - link "Explore Full Portfolio & System Architectures" [ref=f7e758] [cursor=pointer]:
+        - /url: /work
+    - generic [ref=f7e764]:
+      - generic [ref=f7e765]:
+        - generic [ref=f7e766]: Delivery Methodology
+        - heading "The 7-Step Agile Engineering Framework" [level=2] [ref=f7e767]
+        - paragraph [ref=f7e768]: We follow a systematic, transparent software development lifecycle designed to maximize delivery speed while eliminating technical debt.
+      - generic [ref=f7e769]:
+        - button "PHASE 01 Discover" [ref=f7e770] [cursor=pointer]:
+          - generic [ref=f7e771]: PHASE 01
+          - generic [ref=f7e772]: Discover
+        - button "PHASE 02 Strategize" [ref=f7e773] [cursor=pointer]:
+          - generic [ref=f7e774]: PHASE 02
+          - generic [ref=f7e775]: Strategize
+        - button "PHASE 03 Design" [ref=f7e776] [cursor=pointer]:
+          - generic [ref=f7e777]: PHASE 03
+          - generic [ref=f7e778]: Design
+        - button "PHASE 04 Develop" [ref=f7e779] [cursor=pointer]:
+          - generic [ref=f7e780]: PHASE 04
+          - generic [ref=f7e781]: Develop
+        - button "PHASE 05 Test" [ref=f7e782] [cursor=pointer]:
+          - generic [ref=f7e783]: PHASE 05
+          - generic [ref=f7e784]: Test
+        - button "PHASE 06 Deploy" [ref=f7e785] [cursor=pointer]:
+          - generic [ref=f7e786]: PHASE 06
+          - generic [ref=f7e787]: Deploy
+        - button "PHASE 07 Improve" [ref=f7e788] [cursor=pointer]:
+          - generic [ref=f7e789]: PHASE 07
+          - generic [ref=f7e790]: Improve
+      - generic [ref=f7e792]:
+        - generic [ref=f7e793]: Phase 01 — Discover
+        - heading "Strategic Discovery & Analysis" [level=3] [ref=f7e796]
+        - paragraph [ref=f7e797]: We analyze your business objectives, operational workflows, user personas, and technical constraints to establish a bulletproof project foundation.
+        - generic [ref=f7e798]:
+          - paragraph [ref=f7e799]: "Standard Deliverables & Outputs:"
+          - generic [ref=f7e800]:
+            - generic [ref=f7e801]: Product Requirements Document (PRD)
+            - generic [ref=f7e806]: Technical Feasibility Assessment
+            - generic [ref=f7e811]: Architecture Blueprint
+      - link "View Deep-Dive Engineering Methodology" [ref=f7e817] [cursor=pointer]:
+        - /url: /process
+    - generic [ref=f7e823]:
+      - generic [ref=f7e824]:
+        - generic [ref=f7e825]: Architectural Standards
+        - heading "The NEXVISION Technology Ecosystem" [level=2] [ref=f7e826]
+        - paragraph [ref=f7e827]: We strictly adopt modern, high-throughput, and battle-tested technologies that ensure maintainability and high system resilience.
+      - generic [ref=f7e828]:
+        - button "Frontend & Web Architecture" [ref=f7e829] [cursor=pointer]
+        - button "Backend & Systems Engineering" [ref=f7e834] [cursor=pointer]
+        - button "Cloud, Edge & DevOps" [ref=f7e839] [cursor=pointer]
+        - button "Mobile & Cross-Platform" [ref=f7e843] [cursor=pointer]
+      - generic [ref=f7e847]:
+        - generic [ref=f7e848]:
+          - heading "Frontend & Web Architecture" [level=3] [ref=f7e849]
+          - paragraph [ref=f7e850]: Modern, high-performance UI frameworks engineered for speed, responsiveness, and fluid interaction.
+        - generic [ref=f7e851]:
+          - generic [ref=f7e852]:
+            - generic [ref=f7e853]:
+              - generic [ref=f7e854]: Primary Core
+              - generic [ref=f7e855]: Production Standard
+            - paragraph [ref=f7e857]: Next.js (App Router)
+          - generic [ref=f7e858]:
+            - generic [ref=f7e859]:
+              - generic [ref=f7e860]: Primary Core
+              - generic [ref=f7e861]: UI Framework
+            - paragraph [ref=f7e863]: React 18 / 19
+          - generic [ref=f7e864]:
+            - generic [ref=f7e865]:
+              - generic [ref=f7e866]: Primary Core
+              - generic [ref=f7e867]: Static Typing
+            - paragraph [ref=f7e869]: TypeScript
+          - generic [ref=f7e870]:
+            - generic [ref=f7e871]:
+              - generic [ref=f7e872]: Primary Core
+              - generic [ref=f7e873]: Design System
+            - paragraph [ref=f7e875]: Tailwind CSS
+          - generic [ref=f7e876]:
+            - generic [ref=f7e877]:
+              - generic [ref=f7e878]: Primary Core
+              - generic [ref=f7e879]: Animation Physics
+            - paragraph [ref=f7e881]: Framer Motion
+    - generic [ref=f7e883]:
+      - generic [ref=f7e884]: PROJECT INQUIRIES & ADVISORY
+      - heading "Have a Complex Problem Worth Solving?" [level=2] [ref=f7e888]
+      - paragraph [ref=f7e889]: Whether you are modernizing core enterprise systems, building a high-concurrency commerce platform, or architecting a mission-critical digital product, our senior team is ready.
+      - generic [ref=f7e890]:
+        - link "Start a Project Inquiry" [ref=f7e891] [cursor=pointer]:
+          - /url: /contact
+        - link "Review Engineering Process" [ref=f7e896] [cursor=pointer]:
+          - /url: /process
+      - generic [ref=f7e898]:
+        - generic [ref=f7e899]: 24-Hour Initial Response SLA
+        - generic [ref=f7e904]: Mutual NDA Guaranteed
+        - generic [ref=f7e909]: 100% IP & Code Ownership
+  - contentinfo [ref=f7e914]:
+    - generic [ref=f7e916]:
+      - generic [ref=f7e917]:
+        - generic [ref=f7e921]: All Engineering Systems Operational
+        - generic [ref=f7e922]: "| Latency: 24ms (Global Edge)"
+      - generic [ref=f7e923]:
+        - generic [ref=f7e924]: Next-Gen Enterprise Architecture
+        - link "Consult an Architect" [ref=f7e925] [cursor=pointer]:
+          - /url: /contact
+    - generic [ref=f7e929]:
+      - generic [ref=f7e930]:
+        - generic [ref=f7e931]:
+          - link "NX NEXVISION TECHNOLOGIES" [ref=f7e932] [cursor=pointer]:
+            - /url: /
+            - generic [ref=f7e933]: NX
+            - generic [ref=f7e935]:
+              - generic [ref=f7e936]: NEXVISION
+              - generic [ref=f7e937]: TECHNOLOGIES
+          - paragraph [ref=f7e938]: Engineering high-performance software, modern web platforms, and intelligent business systems for forward-thinking enterprises and ambitious startups.
+          - generic [ref=f7e939]:
+            - generic [ref=f7e940]: Next.js App Router
+            - generic [ref=f7e943]: Type-Safe Core
+        - generic [ref=f7e947]:
+          - heading "Services" [level=3] [ref=f7e948]
+          - list [ref=f7e949]:
+            - listitem [ref=f7e950]:
+              - link "Custom Software Development" [ref=f7e951] [cursor=pointer]:
+                - /url: /services/software-development
+            - listitem [ref=f7e952]:
+              - link "Web Application Development" [ref=f7e953] [cursor=pointer]:
+                - /url: /services/web-development
+            - listitem [ref=f7e954]:
+              - link "Mobile Application Development" [ref=f7e955] [cursor=pointer]:
+                - /url: /services/mobile-app-development
+            - listitem [ref=f7e956]:
+              - link "Business Management Systems" [ref=f7e957] [cursor=pointer]:
+                - /url: /services/business-management-systems
+            - listitem [ref=f7e958]:
+              - link "E-Commerce Solutions" [ref=f7e959] [cursor=pointer]:
+                - /url: /services/ecommerce-solutions
+            - listitem [ref=f7e960]:
+              - link "UI/UX Design & Design Systems" [ref=f7e961] [cursor=pointer]:
+                - /url: /services/ui-ux-design
+            - listitem [ref=f7e962]:
+              - link "View All 8 Services →" [ref=f7e963] [cursor=pointer]:
+                - /url: /services
+        - generic [ref=f7e964]:
+          - heading "Solutions & Work" [level=3] [ref=f7e965]
+          - list [ref=f7e966]:
+            - listitem [ref=f7e967]:
+              - link "Solution Archetypes" [ref=f7e968] [cursor=pointer]:
+                - /url: /solutions
+            - listitem [ref=f7e969]:
+              - link "Work & Systems" [ref=f7e970] [cursor=pointer]:
+                - /url: /work
+            - listitem [ref=f7e971]:
+              - link "7-Step Delivery Process" [ref=f7e972] [cursor=pointer]:
+                - /url: /process
+            - listitem [ref=f7e973]:
+              - link "Engineering Insights" [ref=f7e974] [cursor=pointer]:
+                - /url: /insights
+            - listitem [ref=f7e975]:
+              - link "About & Culture" [ref=f7e976] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=f7e977]:
+              - link "Start a Project" [ref=f7e978] [cursor=pointer]:
+                - /url: /contact
+        - generic [ref=f7e979]:
+          - heading "Legal & Trust" [level=3] [ref=f7e980]
+          - list [ref=f7e981]:
+            - listitem [ref=f7e982]:
+              - link "Privacy Policy" [ref=f7e983] [cursor=pointer]:
+                - /url: /privacy-policy
+            - listitem [ref=f7e984]:
+              - link "Terms of Service" [ref=f7e985] [cursor=pointer]:
+                - /url: /terms-of-service
+            - listitem [ref=f7e986]:
+              - link "Cookie Policy" [ref=f7e987] [cursor=pointer]:
+                - /url: /cookie-policy
+            - listitem [ref=f7e988]:
+              - link "Cookie Preferences" [ref=f7e989] [cursor=pointer]:
+                - /url: /cookie-preferences
+            - listitem [ref=f7e990]:
+              - link "Legal Disclaimer" [ref=f7e991] [cursor=pointer]:
+                - /url: /disclaimer
+            - listitem [ref=f7e992]:
+              - link "Accessibility Statement" [ref=f7e993] [cursor=pointer]:
+                - /url: /accessibility
+      - generic [ref=f7e994]:
+        - paragraph [ref=f7e995]: © 2026 NEXVISION TECHNOLOGIES. All rights reserved.
+        - generic [ref=f7e996]:
+          - generic [ref=f7e997]: Dual-Theme Adaptive
+          - generic [ref=f7e998]: WCAG 2.1 AA Compliant
+          - generic [ref=f7e999]: Global Edge Infrastructure

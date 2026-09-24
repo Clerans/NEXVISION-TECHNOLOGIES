@@ -14,21 +14,21 @@ export function Badge({
   ...props
 }: BadgeProps) {
   const variants = {
-    default: "bg-white/5 text-slate-300 border-white/10",
-    primary: "bg-indigo-500/10 text-indigo-400 border-indigo-500/20",
-    secondary: "bg-surface-50 text-slate-300 border-white/10",
-    success: "bg-emerald-500/10 text-emerald-400 border-emerald-500/20",
-    outline: "bg-transparent text-slate-300 border-white/20",
-    glow: "bg-indigo-950/40 text-indigo-300 border-indigo-500/40 shadow-[0_0_12px_rgba(99,102,241,0.25)]",
+    default: "bg-theme-elevated text-theme-secondary border-border-subtle",
+    primary: "bg-accent-indigo/10 text-accent-indigo border-accent-indigo/25",
+    secondary: "bg-theme-highlight text-theme-secondary border-border-subtle",
+    success: "bg-accent-emerald/10 text-accent-emerald border-accent-emerald/25",
+    outline: "bg-transparent text-theme-secondary border-border-subtle",
+    glow: "bg-accent-indigo/10 text-accent-indigo border-accent-indigo/35 shadow-sm shadow-accent-indigo/10",
   };
 
   const dotColors = {
-    default: "bg-slate-400",
-    primary: "bg-indigo-400 animate-pulse",
-    secondary: "bg-slate-400",
-    success: "bg-emerald-400 animate-pulse",
-    outline: "bg-slate-300",
-    glow: "bg-indigo-400 animate-ping",
+    default: "bg-theme-muted",
+    primary: "bg-accent-indigo animate-pulse",
+    secondary: "bg-theme-muted",
+    success: "bg-accent-emerald animate-pulse",
+    outline: "bg-theme-muted",
+    glow: "bg-accent-indigo animate-ping",
   };
 
   return (

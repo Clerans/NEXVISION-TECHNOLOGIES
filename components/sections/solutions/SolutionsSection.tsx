@@ -10,14 +10,14 @@ import { Building2, Store, ShoppingCart, Zap, CheckCircle2, ArrowRight } from "l
 
 export function SolutionsSection() {
   const iconMap: Record<string, React.ReactNode> = {
-    Building2: <Building2 className="w-6 h-6 text-indigo-400" />,
-    Store: <Store className="w-6 h-6 text-emerald-400" />,
-    ShoppingCart: <ShoppingCart className="w-6 h-6 text-pink-400" />,
-    Zap: <Zap className="w-6 h-6 text-amber-400" />,
+    Building2: <Building2 className="w-5 h-5 text-indigo-500 dark:text-indigo-400" />,
+    Store: <Store className="w-5 h-5 text-emerald-500 dark:text-emerald-400" />,
+    ShoppingCart: <ShoppingCart className="w-5 h-5 text-pink-500 dark:text-pink-400" />,
+    Zap: <Zap className="w-5 h-5 text-amber-500 dark:text-amber-400" />,
   };
 
   return (
-    <SectionContainer id="solutions" className="border-t border-white/5 bg-[#050507]">
+    <SectionContainer id="solutions" className="border-t border-border-subtle bg-theme-void">
       <SectionHeader
         eyebrow="Targeted Solution Archetypes"
         title="Scalable Systems for Complex Business Operations"
@@ -29,35 +29,35 @@ export function SolutionsSection() {
           <Card
             key={solution.id}
             glow
-            className="p-8 bg-[#09090e]/90 border border-white/10 flex flex-col justify-between"
+            className="p-8 bg-theme-surface border border-border-subtle flex flex-col justify-between rounded-2xl"
           >
             <div>
               <div className="flex items-center gap-4 mb-5">
-                <div className="p-3.5 rounded-xl bg-white/5 border border-white/10">
-                  {iconMap[solution.icon] || <Building2 className="w-6 h-6 text-indigo-400" />}
+                <div className="p-3 rounded-xl bg-theme-elevated border border-border-subtle">
+                  {iconMap[solution.icon] || <Building2 className="w-5 h-5 text-indigo-500" />}
                 </div>
                 <div>
-                  <CardTitle className="text-xl text-white">
+                  <CardTitle className="text-xl text-theme-primary">
                     {solution.title}
                   </CardTitle>
-                  <p className="text-xs text-indigo-400 font-mono mt-0.5">
+                  <p className="text-xs text-accent-blue font-mono mt-0.5">
                     {solution.subtitle}
                   </p>
                 </div>
               </div>
 
-              <p className="text-sm text-slate-300 leading-relaxed mb-6">
+              <p className="text-sm text-theme-secondary leading-relaxed mb-6">
                 {solution.description}
               </p>
 
-              <div className="space-y-4 mb-6">
-                <p className="text-xs font-mono uppercase tracking-wider text-slate-400">
+              <div className="space-y-3 mb-6">
+                <p className="text-xs font-mono uppercase tracking-wider text-theme-muted font-semibold">
                   Key Capabilities:
                 </p>
-                <ul className="space-y-2.5">
+                <ul className="space-y-2">
                   {solution.keyFeatures.map((feat) => (
-                    <li key={feat} className="flex items-start gap-2.5 text-xs text-slate-300">
-                      <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" />
+                    <li key={feat} className="flex items-start gap-2.5 text-xs text-theme-secondary">
+                      <CheckCircle2 className="w-4 h-4 text-accent-emerald shrink-0 mt-0.5" />
                       <span>{feat}</span>
                     </li>
                   ))}
@@ -65,13 +65,13 @@ export function SolutionsSection() {
               </div>
             </div>
 
-            <div className="pt-6 border-t border-white/10 flex items-center justify-between">
-              <span className="text-xs text-slate-400 font-mono">
+            <div className="pt-6 border-t border-border-subtle flex items-center justify-between">
+              <span className="text-xs text-theme-muted font-mono">
                 {solution.targetAudience}
               </span>
               <Link
                 href="/contact"
-                className="text-xs font-semibold text-blue-400 hover:text-blue-300 flex items-center gap-1 group"
+                className="text-xs font-semibold text-accent-blue hover:underline flex items-center gap-1 group"
               >
                 Discuss Solution <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
               </Link>

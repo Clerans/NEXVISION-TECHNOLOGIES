@@ -1,0 +1,15 @@
+{
+  "name": "NEXVISION TECHNOLOGIES",
+  "short_name": "NEXVISION",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "theme_color": "#030304",
+  "background_color": "#030304",
+  "display": "standalone",
+  "start_url": "/"
+}

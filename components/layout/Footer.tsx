@@ -1,30 +1,30 @@
 import React from "react";
 import Link from "next/link";
-import { SERVICES_DATA } from "@/lib/data";
-import { ArrowUpRight, ShieldCheck, Activity, Terminal } from "lucide-react";
+import { SERVICES_DATA, SOLUTIONS_DATA } from "@/lib/data";
+import { ArrowUpRight, ShieldCheck, Terminal, Cpu } from "lucide-react";
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="border-t border-white/10 bg-[#040406] text-slate-400 relative z-10">
-      {/* Top Banner / Status Strip */}
-      <div className="border-b border-white/5 py-4 px-4 sm:px-6 lg:px-8 bg-black/40">
+    <footer className="border-t border-border-subtle bg-theme-base text-theme-secondary relative z-10 transition-colors">
+      {/* Top Banner / Operational Telemetry Strip */}
+      <div className="border-b border-border-subtle py-3 px-4 sm:px-6 lg:px-8 bg-theme-elevated/40">
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 text-xs font-mono">
-          <div className="flex items-center gap-2 text-slate-300">
+          <div className="flex items-center gap-2 text-theme-primary">
             <span className="relative flex h-2 w-2">
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
               <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
             </span>
-            <span className="text-emerald-400 font-medium">All Engineering Systems Operational</span>
-            <span className="text-slate-400 hidden md:inline">| Latency: 24ms (Global Edge)</span>
+            <span className="text-accent-emerald font-semibold">All Engineering Systems Operational</span>
+            <span className="text-theme-muted hidden md:inline">| Latency: 24ms (Global Edge)</span>
           </div>
 
-          <div className="flex items-center gap-6 text-slate-400">
-            <span>Next-Gen Enterprise Cloud & Software</span>
+          <div className="flex items-center gap-6 text-theme-muted">
+            <span className="hidden sm:inline">Next-Gen Enterprise Architecture</span>
             <Link
               href="/contact"
-              className="text-blue-400 hover:text-blue-300 transition-colors flex items-center gap-1"
+              className="text-accent-blue hover:underline transition-colors flex items-center gap-1 font-semibold"
             >
               Consult an Architect <ArrowUpRight className="w-3 h-3" />
             </Link>
@@ -42,32 +42,32 @@ export function Footer() {
                 <span className="font-bold text-base text-white tracking-wider">NX</span>
               </div>
               <div className="flex flex-col">
-                <span className="font-bold text-lg tracking-tight text-white">
+                <span className="font-bold text-lg tracking-tight text-theme-primary">
                   NEXVISION
                 </span>
-                <span className="text-[10px] font-mono tracking-widest text-slate-400 uppercase -mt-1">
+                <span className="text-[10px] font-mono tracking-widest text-theme-muted uppercase -mt-1">
                   TECHNOLOGIES
                 </span>
               </div>
             </Link>
 
-            <p className="text-sm text-slate-400 max-w-sm leading-relaxed">
+            <p className="text-sm text-theme-muted max-w-sm leading-relaxed">
               Engineering high-performance software, modern web platforms, and intelligent business systems for forward-thinking enterprises and ambitious startups.
             </p>
 
-            <div className="pt-2 flex items-center gap-3 text-xs font-mono text-slate-400">
-              <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded bg-white/5 border border-white/10 text-slate-300">
-                <Terminal className="w-3.5 h-3.5 text-indigo-400" /> Next.js App Router
+            <div className="pt-2 flex flex-wrap items-center gap-3 text-xs font-mono text-theme-secondary">
+              <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded bg-theme-elevated border border-border-subtle">
+                <Terminal className="w-3.5 h-3.5 text-accent-indigo" /> Next.js App Router
               </span>
-              <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded bg-white/5 border border-white/10 text-slate-300">
-                <ShieldCheck className="w-3.5 h-3.5 text-emerald-400" /> Type-Safe
+              <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded bg-theme-elevated border border-border-subtle">
+                <ShieldCheck className="w-3.5 h-3.5 text-accent-emerald" /> Type-Safe Core
               </span>
             </div>
           </div>
 
           {/* Column 1: Services */}
           <div className="space-y-4">
-            <h3 className="text-xs font-mono font-semibold uppercase tracking-wider text-white">
+            <h3 className="text-xs font-mono font-semibold uppercase tracking-wider text-theme-primary">
               Services
             </h3>
             <ul className="space-y-2.5 text-sm">
@@ -75,7 +75,7 @@ export function Footer() {
                 <li key={service.id}>
                   <Link
                     href={`/services/${service.slug}`}
-                    className="hover:text-blue-400 transition-colors text-slate-400 hover:translate-x-0.5 inline-block"
+                    className="hover:text-accent-blue transition-colors text-theme-secondary hover:translate-x-0.5 inline-block"
                   >
                     {service.title}
                   </Link>
@@ -84,91 +84,86 @@ export function Footer() {
               <li>
                 <Link
                   href="/services"
-                  className="text-blue-400 hover:text-blue-300 font-medium inline-flex items-center gap-1 text-xs mt-1"
+                  className="text-accent-blue hover:underline font-semibold inline-flex items-center gap-1 text-xs mt-1"
                 >
-                  View All Services →
+                  View All 8 Services →
                 </Link>
               </li>
             </ul>
           </div>
 
-          {/* Column 2: Platform & Company */}
+          {/* Column 2: Platform & Solutions */}
           <div className="space-y-4">
-            <h3 className="text-xs font-mono font-semibold uppercase tracking-wider text-white">
-              Company & Work
+            <h3 className="text-xs font-mono font-semibold uppercase tracking-wider text-theme-primary">
+              Solutions & Work
             </h3>
             <ul className="space-y-2.5 text-sm">
               <li>
-                <Link href="/about" className="hover:text-white transition-colors">
-                  About Us
+                <Link href="/solutions" className="hover:text-theme-primary transition-colors">
+                  Solution Archetypes
                 </Link>
               </li>
               <li>
-                <Link href="/solutions" className="hover:text-white transition-colors">
-                  Solutions
+                <Link href="/work" className="hover:text-theme-primary transition-colors">
+                  Work & Systems
                 </Link>
               </li>
               <li>
-                <Link href="/work" className="hover:text-white transition-colors">
-                  Work & Portfolio
+                <Link href="/process" className="hover:text-theme-primary transition-colors">
+                  7-Step Delivery Process
                 </Link>
               </li>
               <li>
-                <Link href="/process" className="hover:text-white transition-colors">
-                  Engineering Process
+                <Link href="/insights" className="hover:text-theme-primary transition-colors">
+                  Engineering Insights
                 </Link>
               </li>
               <li>
-                <Link href="/insights" className="hover:text-white transition-colors">
-                  Insights & Tech Radar
+                <Link href="/about" className="hover:text-theme-primary transition-colors">
+                  About & Culture
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className="hover:text-white transition-colors">
+                <Link href="/contact" className="hover:text-theme-primary transition-colors">
                   Start a Project
-                </Link>
-              </li>
-              <li>
-                <Link href="/maintenance" className="text-xs text-slate-400 hover:text-slate-400">
-                  Maintenance Preview
                 </Link>
               </li>
             </ul>
           </div>
 
-          {/* Column 3: Legal & Compliance */}
+          {/* Column 3: Legal & Trust */}
           <div className="space-y-4">
-            <h3 className="text-xs font-mono font-semibold uppercase tracking-wider text-white">
+            <h3 className="text-xs font-mono font-semibold uppercase tracking-wider text-theme-primary">
               Legal & Trust
             </h3>
             <ul className="space-y-2.5 text-sm">
               <li>
-                <Link href="/privacy-policy" className="hover:text-white transition-colors">
+                <Link href="/privacy-policy" className="hover:text-theme-primary transition-colors">
                   Privacy Policy
                 </Link>
               </li>
               <li>
-                <Link href="/terms-of-service" className="hover:text-white transition-colors">
+                <Link href="/terms-of-service" className="hover:text-theme-primary transition-colors">
                   Terms of Service
                 </Link>
               </li>
               <li>
-                <Link href="/cookie-policy" className="hover:text-white transition-colors">
+                <Link href="/cookie-policy" className="hover:text-theme-primary transition-colors">
                   Cookie Policy
                 </Link>
               </li>
               <li>
-                <Link href="/cookie-preferences" className="hover:text-white transition-colors">
+                <Link href="/cookie-preferences" className="hover:text-theme-primary transition-colors">
                   Cookie Preferences
                 </Link>
               </li>
               <li>
-                <Link href="/disclaimer" className="hover:text-white transition-colors">
+                <Link href="/disclaimer" className="hover:text-theme-primary transition-colors">
                   Legal Disclaimer
                 </Link>
               </li>
               <li>
-                <Link href="/accessibility" className="hover:text-white transition-colors">
+                <Link href="/accessibility" className="hover:text-theme-primary transition-colors">
                   Accessibility Statement
                 </Link>
               </li>
@@ -177,12 +172,12 @@ export function Footer() {
         </div>
 
         {/* Bottom Strip */}
-        <div className="mt-16 pt-8 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-slate-400">
+        <div className="mt-16 pt-8 border-t border-border-subtle flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-theme-muted">
           <p>© {currentYear} NEXVISION TECHNOLOGIES. All rights reserved.</p>
-          <div className="flex items-center gap-6">
-            <span>Dark-Mode First Experience</span>
+          <div className="flex flex-wrap items-center gap-6">
+            <span>Dual-Theme Adaptive</span>
             <span>WCAG 2.1 AA Compliant</span>
-            <span>Global Edge CDN</span>
+            <span>Global Edge Infrastructure</span>
           </div>
         </div>
       </div>

@@ -1,6 +1,8 @@
 import type { Metadata, Viewport } from "next";
 import { Inter, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
+import { ThemeProvider } from "@/components/theme/ThemeProvider";
+import { ThemeScript } from "@/components/theme/ThemeScript";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -30,10 +32,17 @@ export const metadata: Metadata = {
     "Cloud Architecture",
     "NEXVISION",
     "Digital Solutions",
+    "Software Engineering",
   ],
   authors: [{ name: "NEXVISION TECHNOLOGIES" }],
   creator: "NEXVISION TECHNOLOGIES",
   metadataBase: new URL("https://nexvisiontech.com"),
+  icons: {
+    icon: "/favicon.svg",
+    shortcut: "/favicon.svg",
+    apple: "/favicon.svg",
+  },
+  manifest: "/site.webmanifest",
   openGraph: {
     type: "website",
     locale: "en_US",
@@ -57,7 +66,10 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: "#050505",
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#ffffff" },
+    { media: "(prefers-color-scheme: dark)", color: "#030304" },
+  ],
   width: "device-width",
   initialScale: 1,
 };
@@ -68,9 +80,16 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${inter.variable} ${jetbrainsMono.variable} dark`}>
-      <body className="bg-[#050505] text-slate-100 min-h-screen flex flex-col font-sans selection:bg-indigo-500/30 selection:text-indigo-200">
-        {children}
+    <html
+      lang="en"
+      suppressHydrationWarning
+      className={`${inter.variable} ${jetbrainsMono.variable}`}
+    >
+      <head>
+        <ThemeScript />
+      </head>
+      <body className="bg-theme-void text-theme-primary min-h-screen flex flex-col font-sans selection:bg-accent-indigo/25 selection:text-accent-indigo">
+        <ThemeProvider>{children}</ThemeProvider>
       </body>
     </html>
   );

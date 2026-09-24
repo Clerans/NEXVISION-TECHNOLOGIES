@@ -20,9 +20,7 @@ export function SectionContainer({
 
   return (
     <section className={cn("relative py-16 md:py-24 px-4 sm:px-6 lg:px-8", className)} {...props}>
-      <div className={cn("mx-auto", sizes[size])}>
-        {children}
-      </div>
+      <div className={cn("mx-auto", sizes[size])}>{children}</div>
     </section>
   );
 }
@@ -49,15 +47,15 @@ export function SectionHeader({
   return (
     <div className={cn("flex flex-col mb-12 md:mb-16 max-w-3xl", alignments[align], className)}>
       {eyebrow && (
-        <span className="text-xs font-mono font-medium tracking-widest uppercase text-indigo-400 mb-3 bg-indigo-500/10 px-3 py-1 rounded-full border border-indigo-500/20">
+        <span className="text-xs font-mono font-semibold tracking-widest uppercase text-accent-indigo mb-3 bg-accent-indigo/10 px-3 py-1 rounded-full border border-accent-indigo/25">
           {eyebrow}
         </span>
       )}
-      <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-white mb-4 leading-tight">
+      <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-theme-primary mb-4 leading-tight">
         {title}
       </h2>
       {description && (
-        <p className="text-base sm:text-lg text-slate-400 leading-relaxed max-w-2xl">
+        <p className="text-base sm:text-lg text-theme-secondary leading-relaxed max-w-2xl">
           {description}
         </p>
       )}

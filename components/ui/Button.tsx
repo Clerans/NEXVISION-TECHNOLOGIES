@@ -30,19 +30,19 @@ export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
     ref
   ) => {
     const baseStyles =
-      "relative inline-flex items-center justify-center font-medium rounded-lg transition-all duration-200 select-none disabled:opacity-50 disabled:pointer-events-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500/50";
+      "relative inline-flex items-center justify-center font-medium rounded-lg transition-all duration-200 select-none disabled:opacity-50 disabled:pointer-events-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent-indigo/50";
 
     const variants = {
       primary:
-        "bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white shadow-lg shadow-indigo-500/20 active:scale-[0.98]",
+        "bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white shadow-md shadow-indigo-500/20 active:scale-[0.98]",
       glow:
-        "bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 hover:opacity-95 text-white shadow-[0_0_25px_rgba(99,102,241,0.4)] active:scale-[0.98] border border-white/20",
+        "bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 hover:opacity-95 text-white shadow-[0_0_20px_rgba(99,102,241,0.35)] dark:shadow-[0_0_25px_rgba(99,102,241,0.45)] active:scale-[0.98] border border-white/20",
       secondary:
-        "bg-surface-100 hover:bg-surface-50 text-slate-100 border border-white/10 active:scale-[0.98]",
+        "bg-theme-elevated hover:bg-theme-highlight text-theme-primary border border-border-subtle active:scale-[0.98]",
       outline:
-        "bg-transparent hover:bg-white/5 text-slate-200 border border-white/15 hover:border-white/30 active:scale-[0.98]",
+        "bg-transparent hover:bg-theme-elevated text-theme-primary border border-border-medium hover:border-accent-indigo active:scale-[0.98]",
       ghost:
-        "bg-transparent hover:bg-white/5 text-slate-300 hover:text-white",
+        "bg-transparent hover:bg-theme-elevated text-theme-secondary hover:text-theme-primary",
     };
 
     const sizes = {
@@ -57,7 +57,11 @@ export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
       <>
         {icon && iconPosition === "left" && <span className="inline-flex shrink-0">{icon}</span>}
         <span>{children}</span>
-        {icon && iconPosition === "right" && <span className="inline-flex shrink-0 transition-transform group-hover:translate-x-0.5">{icon}</span>}
+        {icon && iconPosition === "right" && (
+          <span className="inline-flex shrink-0 transition-transform group-hover:translate-x-0.5">
+            {icon}
+          </span>
+        )}
       </>
     );
 

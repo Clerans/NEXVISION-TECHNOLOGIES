@@ -1,15 +1,20 @@
 "use client";
 
 import React, { useEffect, useRef } from "react";
+import { useTheme } from "@/components/theme/ThemeProvider";
 
 export function ParticleGrid() {
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
+  const { resolvedTheme } = useTheme();
 
   useEffect(() => {
     const canvas = canvasRef.current;
     if (!canvas) return;
     const ctx = canvas.getContext("2d");
     if (!ctx) return;
+
+    // Check prefers-reduced-motion
+    const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
     let animationFrameId: number;
     let width = (canvas.width = canvas.offsetWidth);
@@ -23,6 +28,8 @@ export function ParticleGrid() {
 
     window.addEventListener("resize", handleResize);
 
+    const isDark = resolvedTheme === "dark";
+
     const particles: Array<{
       x: number;
       y: number;
@@ -32,23 +39,36 @@ export function ParticleGrid() {
       alpha: number;
     }> = [];
 
-    const particleCount = Math.min(Math.floor((width * height) / 18000), 65);
+    const particleCount = prefersReducedMotion
+      ? 20
+      : Math.min(Math.floor((width * height) / 20000), 55);
 
     for (let i = 0; i < particleCount; i++) {
       particles.push({
         x: Math.random() * width,
         y: Math.random() * height,
-        vx: (Math.random() - 0.5) * 0.4,
-        vy: (Math.random() - 0.5) * 0.4,
+        vx: prefersReducedMotion ? 0 : (Math.random() - 0.5) * 0.35,
+        vy: prefersReducedMotion ? 0 : (Math.random() - 0.5) * 0.35,
         size: Math.random() * 1.5 + 0.8,
-        alpha: Math.random() * 0.5 + 0.2,
+        alpha: Math.random() * 0.5 + 0.25,
       });
     }
 
+    let isVisible = !document.hidden;
+    const handleVisibilityChange = () => {
+      isVisible = !document.hidden;
+      if (isVisible && !prefersReducedMotion) {
+        animationFrameId = requestAnimationFrame(render);
+      }
+    };
+    document.addEventListener("visibilitychange", handleVisibilityChange);
+
     const render = () => {
+      if (!isVisible) return;
+
       ctx.clearRect(0, 0, width, height);
 
-      // Draw faint connections
+      // Connection lines
       for (let i = 0; i < particles.length; i++) {
         for (let j = i + 1; j < particles.length; j++) {
           const dx = particles[i].x - particles[j].x;
@@ -56,8 +76,10 @@ export function ParticleGrid() {
           const dist = Math.sqrt(dx * dx + dy * dy);
 
           if (dist < 120) {
-            const alpha = (1 - dist / 120) * 0.15;
-            ctx.strokeStyle = `rgba(99, 102, 241, ${alpha})`;
+            const lineAlpha = (1 - dist / 120) * (isDark ? 0.18 : 0.15);
+            ctx.strokeStyle = isDark
+              ? `rgba(99, 102, 241, ${lineAlpha})`
+              : `rgba(79, 70, 229, ${lineAlpha})`;
             ctx.lineWidth = 0.8;
             ctx.beginPath();
             ctx.moveTo(particles[i].x, particles[i].y);
@@ -69,35 +91,42 @@ export function ParticleGrid() {
 
       // Draw particles
       for (const p of particles) {
-        p.x += p.vx;
-        p.y += p.vy;
+        if (!prefersReducedMotion) {
+          p.x += p.vx;
+          p.y += p.vy;
 
-        if (p.x < 0) p.x = width;
-        if (p.x > width) p.x = 0;
-        if (p.y < 0) p.y = height;
-        if (p.y > height) p.y = 0;
+          if (p.x < 0) p.x = width;
+          if (p.x > width) p.x = 0;
+          if (p.y < 0) p.y = height;
+          if (p.y > height) p.y = 0;
+        }
 
-        ctx.fillStyle = `rgba(129, 140, 248, ${p.alpha})`;
+        ctx.fillStyle = isDark
+          ? `rgba(129, 140, 248, ${p.alpha})`
+          : `rgba(37, 99, 235, ${p.alpha * 0.85})`;
         ctx.beginPath();
         ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
         ctx.fill();
       }
 
-      animationFrameId = requestAnimationFrame(render);
+      if (!prefersReducedMotion) {
+        animationFrameId = requestAnimationFrame(render);
+      }
     };
 
     render();
 
     return () => {
       window.removeEventListener("resize", handleResize);
+      document.removeEventListener("visibilitychange", handleVisibilityChange);
       cancelAnimationFrame(animationFrameId);
     };
-  }, []);
+  }, [resolvedTheme]);
 
   return (
     <canvas
       ref={canvasRef}
-      className="absolute inset-0 pointer-events-none w-full h-full opacity-60 z-0"
+      className="absolute inset-0 pointer-events-none w-full h-full opacity-60 dark:opacity-75 z-0"
       aria-hidden="true"
     />
   );

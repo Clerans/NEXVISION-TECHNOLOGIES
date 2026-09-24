@@ -2,7 +2,6 @@
 
 import React, { useState } from "react";
 import { Button } from "@/components/ui/Button";
-import { Badge } from "@/components/ui/Badge";
 import { CheckCircle2, AlertCircle, Loader2, Send, Clock, ShieldCheck } from "lucide-react";
 
 export function ContactInquiryForm() {
@@ -71,19 +70,19 @@ export function ContactInquiryForm() {
 
   if (status === "success") {
     return (
-      <div className="p-8 sm:p-12 rounded-2xl bg-surface-200/90 border border-emerald-500/30 text-center space-y-6 animate-in fade-in zoom-in-95 duration-200">
-        <div className="w-16 h-16 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 flex items-center justify-center mx-auto">
+      <div className="p-8 sm:p-12 rounded-3xl bg-theme-surface border border-accent-emerald/30 text-center space-y-6 shadow-2xl animate-in fade-in zoom-in-95 duration-200">
+        <div className="w-16 h-16 rounded-full bg-accent-emerald/10 border border-accent-emerald/30 text-accent-emerald flex items-center justify-center mx-auto">
           <CheckCircle2 className="w-8 h-8" />
         </div>
         <div className="space-y-2">
-          <h3 className="text-2xl font-bold text-white">Project Inquiry Received</h3>
-          <p className="text-sm text-slate-300 max-w-md mx-auto leading-relaxed">
-            Thank you, <strong className="text-white">{formData.fullName}</strong>. A senior NEXVISION software architect has been assigned to review your inquiry.
+          <h3 className="text-2xl font-bold text-theme-primary">Project Inquiry Received</h3>
+          <p className="text-sm text-theme-secondary max-w-md mx-auto leading-relaxed">
+            Thank you, <strong className="text-theme-primary">{formData.fullName}</strong>. A senior NEXVISION software architect has been assigned to review your inquiry.
           </p>
         </div>
-        <div className="p-4 rounded-xl bg-surface-300/80 border border-white/5 text-xs font-mono text-slate-400 max-w-sm mx-auto space-y-1">
-          <p>Target Response SLA: <span className="text-emerald-400 font-bold">&lt; 24 Hours</span></p>
-          <p>Service: <span className="text-indigo-400">{formData.serviceCategory}</span></p>
+        <div className="p-4 rounded-xl bg-theme-elevated border border-border-subtle text-xs font-mono text-theme-muted max-w-sm mx-auto space-y-1">
+          <p>Target Response SLA: <span className="text-accent-emerald font-bold">&lt; 24 Hours</span></p>
+          <p>Service: <span className="text-accent-indigo font-semibold">{formData.serviceCategory}</span></p>
         </div>
         <Button
           onClick={() => {
@@ -110,10 +109,10 @@ export function ContactInquiryForm() {
   return (
     <form
       onSubmit={handleSubmit}
-      className="p-8 sm:p-10 rounded-2xl bg-surface-200/90 border border-white/10 shadow-2xl space-y-6"
+      className="p-8 sm:p-10 rounded-3xl bg-theme-surface border border-border-subtle shadow-2xl space-y-6"
     >
       {status === "error" && (
-        <div className="p-4 rounded-xl bg-rose-500/10 border border-rose-500/30 text-rose-400 text-xs flex items-center gap-2">
+        <div className="p-4 rounded-xl bg-rose-500/10 border border-rose-500/30 text-rose-600 dark:text-rose-400 text-xs flex items-center gap-2">
           <AlertCircle className="w-4 h-4 shrink-0" />
           <span>{errorMessage}</span>
         </div>
@@ -122,8 +121,8 @@ export function ContactInquiryForm() {
       {/* Row 1: Name & Email */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
         <div className="space-y-2">
-          <label className="text-xs font-mono uppercase tracking-wider text-slate-300 block">
-            Full Name <span className="text-indigo-400">*</span>
+          <label className="text-xs font-mono uppercase tracking-wider text-theme-secondary font-semibold block">
+            Full Name <span className="text-accent-indigo">*</span>
           </label>
           <input
             type="text"
@@ -131,13 +130,13 @@ export function ContactInquiryForm() {
             value={formData.fullName}
             onChange={(e) => setFormData({ ...formData, fullName: e.target.value })}
             placeholder="e.g. Elena Rostova"
-            className="w-full px-4 py-3 rounded-lg bg-surface-300 border border-white/10 text-white text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500/50 focus:border-indigo-500 transition-all placeholder:text-slate-400"
+            className="w-full px-4 py-3 rounded-xl bg-theme-elevated border border-border-subtle text-theme-primary text-sm focus:outline-none focus:ring-2 focus:ring-accent-indigo/50 focus:border-accent-indigo transition-all placeholder:text-theme-muted"
           />
         </div>
 
         <div className="space-y-2">
-          <label className="text-xs font-mono uppercase tracking-wider text-slate-300 block">
-            Work Email Address <span className="text-indigo-400">*</span>
+          <label className="text-xs font-mono uppercase tracking-wider text-theme-secondary font-semibold block">
+            Work Email Address <span className="text-accent-indigo">*</span>
           </label>
           <input
             type="email"
@@ -145,14 +144,14 @@ export function ContactInquiryForm() {
             value={formData.email}
             onChange={(e) => setFormData({ ...formData, email: e.target.value })}
             placeholder="e.g. elena@company.com"
-            className="w-full px-4 py-3 rounded-lg bg-surface-300 border border-white/10 text-white text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500/50 focus:border-indigo-500 transition-all placeholder:text-slate-400"
+            className="w-full px-4 py-3 rounded-xl bg-theme-elevated border border-border-subtle text-theme-primary text-sm focus:outline-none focus:ring-2 focus:ring-accent-indigo/50 focus:border-accent-indigo transition-all placeholder:text-theme-muted"
           />
         </div>
       </div>
 
       {/* Row 2: Company */}
       <div className="space-y-2">
-        <label className="text-xs font-mono uppercase tracking-wider text-slate-300 block">
+        <label className="text-xs font-mono uppercase tracking-wider text-theme-secondary font-semibold block">
           Company or Venture Name
         </label>
         <input
@@ -160,22 +159,22 @@ export function ContactInquiryForm() {
           value={formData.company}
           onChange={(e) => setFormData({ ...formData, company: e.target.value })}
           placeholder="e.g. Apex Global Logistics"
-          className="w-full px-4 py-3 rounded-lg bg-surface-300 border border-white/10 text-white text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500/50 focus:border-indigo-500 transition-all placeholder:text-slate-400"
+          className="w-full px-4 py-3 rounded-xl bg-theme-elevated border border-border-subtle text-theme-primary text-sm focus:outline-none focus:ring-2 focus:ring-accent-indigo/50 focus:border-accent-indigo transition-all placeholder:text-theme-muted"
         />
       </div>
 
       {/* Row 3: Service Selection */}
       <div className="space-y-2">
-        <label className="text-xs font-mono uppercase tracking-wider text-slate-300 block">
+        <label className="text-xs font-mono uppercase tracking-wider text-theme-secondary font-semibold block">
           Service Specialization
         </label>
         <select
           value={formData.serviceCategory}
           onChange={(e) => setFormData({ ...formData, serviceCategory: e.target.value })}
-          className="w-full px-4 py-3 rounded-lg bg-surface-300 border border-white/10 text-white text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500/50 focus:border-indigo-500 transition-all"
+          className="w-full px-4 py-3 rounded-xl bg-theme-elevated border border-border-subtle text-theme-primary text-sm focus:outline-none focus:ring-2 focus:ring-accent-indigo/50 focus:border-accent-indigo transition-all"
         >
           {servicesList.map((srv) => (
-            <option key={srv} value={srv} className="bg-[#0b0b10] text-white">
+            <option key={srv} value={srv} className="bg-theme-surface text-theme-primary">
               {srv}
             </option>
           ))}
@@ -185,16 +184,16 @@ export function ContactInquiryForm() {
       {/* Row 4: Budget & Timeline */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
         <div className="space-y-2">
-          <label className="text-xs font-mono uppercase tracking-wider text-slate-300 block">
+          <label className="text-xs font-mono uppercase tracking-wider text-theme-secondary font-semibold block">
             Target Investment Range
           </label>
           <select
             value={formData.budgetRange}
             onChange={(e) => setFormData({ ...formData, budgetRange: e.target.value })}
-            className="w-full px-4 py-3 rounded-lg bg-surface-300 border border-white/10 text-white text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500/50 focus:border-indigo-500 transition-all"
+            className="w-full px-4 py-3 rounded-xl bg-theme-elevated border border-border-subtle text-theme-primary text-sm focus:outline-none focus:ring-2 focus:ring-accent-indigo/50 focus:border-accent-indigo transition-all"
           >
             {budgetOptions.map((opt) => (
-              <option key={opt} value={opt} className="bg-[#0b0b10] text-white">
+              <option key={opt} value={opt} className="bg-theme-surface text-theme-primary">
                 {opt}
               </option>
             ))}
@@ -202,16 +201,16 @@ export function ContactInquiryForm() {
         </div>
 
         <div className="space-y-2">
-          <label className="text-xs font-mono uppercase tracking-wider text-slate-300 block">
+          <label className="text-xs font-mono uppercase tracking-wider text-theme-secondary font-semibold block">
             Desired Timeline
           </label>
           <select
             value={formData.timeline}
             onChange={(e) => setFormData({ ...formData, timeline: e.target.value })}
-            className="w-full px-4 py-3 rounded-lg bg-surface-300 border border-white/10 text-white text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500/50 focus:border-indigo-500 transition-all"
+            className="w-full px-4 py-3 rounded-xl bg-theme-elevated border border-border-subtle text-theme-primary text-sm focus:outline-none focus:ring-2 focus:ring-accent-indigo/50 focus:border-accent-indigo transition-all"
           >
             {timelineOptions.map((opt) => (
-              <option key={opt} value={opt} className="bg-[#0b0b10] text-white">
+              <option key={opt} value={opt} className="bg-theme-surface text-theme-primary">
                 {opt}
               </option>
             ))}
@@ -221,8 +220,8 @@ export function ContactInquiryForm() {
 
       {/* Row 5: Project Description */}
       <div className="space-y-2">
-        <label className="text-xs font-mono uppercase tracking-wider text-slate-300 block">
-          Project Objectives & Technical Scope <span className="text-indigo-400">*</span>
+        <label className="text-xs font-mono uppercase tracking-wider text-theme-secondary font-semibold block">
+          Project Objectives & Technical Scope <span className="text-accent-indigo">*</span>
         </label>
         <textarea
           required
@@ -230,7 +229,7 @@ export function ContactInquiryForm() {
           value={formData.description}
           onChange={(e) => setFormData({ ...formData, description: e.target.value })}
           placeholder="Describe your operational goals, existing systems, or platform requirements..."
-          className="w-full px-4 py-3 rounded-lg bg-surface-300 border border-white/10 text-white text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500/50 focus:border-indigo-500 transition-all placeholder:text-slate-400 resize-none"
+          className="w-full px-4 py-3 rounded-xl bg-theme-elevated border border-border-subtle text-theme-primary text-sm focus:outline-none focus:ring-2 focus:ring-accent-indigo/50 focus:border-accent-indigo transition-all placeholder:text-theme-muted resize-none"
         />
       </div>
 
@@ -240,18 +239,18 @@ export function ContactInquiryForm() {
         disabled={status === "loading"}
         variant="glow"
         size="lg"
-        className="w-full"
+        className="w-full font-semibold"
         icon={status === "loading" ? <Loader2 className="w-4 h-4 animate-spin" /> : <Send className="w-4 h-4" />}
       >
         {status === "loading" ? "Validating & Transmitting..." : "Submit Project Inquiry"}
       </Button>
 
-      <div className="flex items-center justify-between text-[11px] font-mono text-slate-400 pt-2 border-t border-white/5">
+      <div className="flex items-center justify-between text-[11px] font-mono text-theme-muted pt-2 border-t border-border-subtle">
         <span className="flex items-center gap-1.5">
-          <ShieldCheck className="w-3.5 h-3.5 text-emerald-400" /> NDA Guaranteed
+          <ShieldCheck className="w-3.5 h-3.5 text-accent-emerald" /> NDA Guaranteed
         </span>
         <span className="flex items-center gap-1.5">
-          <Clock className="w-3.5 h-3.5 text-blue-400" /> &lt; 24h Response SLA
+          <Clock className="w-3.5 h-3.5 text-accent-blue" /> &lt; 24h Response SLA
         </span>
       </div>
     </form>

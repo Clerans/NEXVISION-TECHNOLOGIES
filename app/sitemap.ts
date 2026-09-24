@@ -1,5 +1,5 @@
 import { MetadataRoute } from "next";
-import { SERVICES_DATA, INSIGHTS_DATA } from "@/lib/data";
+import { SERVICES_DATA, INSIGHTS_DATA, PROJECTS_DATA } from "@/lib/data";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://nexvisiontech.com";
@@ -9,7 +9,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/about`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 },
     { url: `${baseUrl}/services`, lastModified: new Date(), changeFrequency: "weekly", priority: 0.9 },
     { url: `${baseUrl}/solutions`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 },
-    { url: `${baseUrl}/work`, lastModified: new Date(), changeFrequency: "weekly", priority: 0.8 },
+    { url: `${baseUrl}/work`, lastModified: new Date(), changeFrequency: "weekly", priority: 0.85 },
     { url: `${baseUrl}/process`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.7 },
     { url: `${baseUrl}/insights`, lastModified: new Date(), changeFrequency: "weekly", priority: 0.8 },
     { url: `${baseUrl}/contact`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.9 },
@@ -28,6 +28,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.85,
   }));
 
+  const projectRoutes: MetadataRoute.Sitemap = PROJECTS_DATA.map((project) => ({
+    url: `${baseUrl}/work/${project.slug}`,
+    lastModified: new Date(),
+    changeFrequency: "monthly",
+    priority: 0.8,
+  }));
+
   const insightRoutes: MetadataRoute.Sitemap = INSIGHTS_DATA.map((article) => ({
     url: `${baseUrl}/insights/${article.slug}`,
     lastModified: new Date(article.publishedAt),
@@ -35,5 +42,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.75,
   }));
 
-  return [...staticRoutes, ...serviceRoutes, ...insightRoutes];
+  return [...staticRoutes, ...serviceRoutes, ...projectRoutes, ...insightRoutes];
 }
