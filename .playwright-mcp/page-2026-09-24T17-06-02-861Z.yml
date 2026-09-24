@@ -1,0 +1,226 @@
+- generic [ref=f10e2]:
+  - banner [ref=f10e3]:
+    - generic [ref=f10e4]:
+      - link "NX NEXVISION TECHNOLOGIES" [ref=f10e5] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f10e6]: NX
+        - generic [ref=f10e9]:
+          - generic [ref=f10e10]: NEXVISION
+          - generic [ref=f10e11]: TECHNOLOGIES
+      - navigation "Main Navigation" [ref=f10e12]:
+        - button "Services" [ref=f10e14] [cursor=pointer]
+        - button "Solutions" [ref=f10e19] [cursor=pointer]
+        - link "Work" [ref=f10e23] [cursor=pointer]:
+          - /url: /work
+        - link "Process" [ref=f10e24] [cursor=pointer]:
+          - /url: /process
+        - link "About" [ref=f10e25] [cursor=pointer]:
+          - /url: /about
+        - link "Insights" [ref=f10e26] [cursor=pointer]:
+          - /url: /insights
+      - link "Start a Project" [ref=f10e30] [cursor=pointer]:
+        - /url: /contact
+  - main [ref=f10e35]:
+    - generic [ref=f10e36]:
+      - link "Back to All Services" [ref=f10e38] [cursor=pointer]:
+        - /url: /services
+      - generic [ref=f10e42]:
+        - generic [ref=f10e48]: Resilient backend engines and bespoke enterprise platforms
+        - heading "Bespoke Enterprise Software Engineered for Longevity" [level=1] [ref=f10e51]
+        - paragraph [ref=f10e52]: End-to-end bespoke software engineering designed for high throughput, maintainable architectures, and enterprise reliability.
+        - generic [ref=f10e53]:
+          - link "Start a Project" [ref=f10e54] [cursor=pointer]:
+            - /url: /contact
+          - link "Explore Capabilities" [ref=f10e59] [cursor=pointer]:
+            - /url: "#capabilities"
+      - generic [ref=f10e63]:
+        - generic [ref=f10e64]:
+          - text: The Engineering Challenge
+          - heading "Operational Friction & Scalability Hurdles" [level=2] [ref=f10e65]
+          - paragraph [ref=f10e66]: Off-the-shelf software forces businesses into rigid workflows and restrictive licensing models. As operations scale, technical friction compounds, resulting in data silos and performance bottlenecks.
+          - generic [ref=f10e67]:
+            - heading "Our Architectural Strategy:" [level=3] [ref=f10e68]
+            - paragraph [ref=f10e69]: We architect domain-specific software systems from the ground up. Utilizing domain-driven design, modular microservices, and type-safe systems, our engineering team builds solutions that adapt to your exact operational workflows.
+        - generic [ref=f10e70]:
+          - text: Technical Capabilities
+          - generic [ref=f10e71]:
+            - generic [ref=f10e72]:
+              - heading "Enterprise Core Architecture" [level=3] [ref=f10e73]
+              - paragraph [ref=f10e74]: Robust service layers, clean boundary segregation, and resilient background job processing pipelines.
+            - generic [ref=f10e75]:
+              - heading "High-Throughput API Gateways" [level=3] [ref=f10e76]
+              - paragraph [ref=f10e77]: RESTful, GraphQL, and gRPC endpoints engineered for sub-50ms latency and high concurrent traffic.
+            - generic [ref=f10e78]:
+              - heading "Legacy Modernization & Refactoring" [level=3] [ref=f10e79]
+              - paragraph [ref=f10e80]: Zero-downtime migration of monolithic architectures to maintainable, cloud-native services.
+            - generic [ref=f10e81]:
+              - heading "Multi-Tenant SaaS Infrastructure" [level=3] [ref=f10e82]
+              - paragraph [ref=f10e83]: Secure data isolation, dynamic tenant provisioning, and granular role-based access control (RBAC).
+      - generic [ref=f10e86]:
+        - generic [ref=f10e87]:
+          - heading "Contractual Sprint Deliverables" [level=3] [ref=f10e88]
+          - list [ref=f10e89]:
+            - listitem [ref=f10e90]:
+              - generic [ref=f10e94]: Production-ready codebase with full test coverage (Unit & Integration)
+            - listitem [ref=f10e95]:
+              - generic [ref=f10e99]: OpenAPI 3.0 / Swagger Interactive Documentation
+            - listitem [ref=f10e100]:
+              - generic [ref=f10e104]: Automated CI/CD deployment pipelines
+            - listitem [ref=f10e105]:
+              - generic [ref=f10e109]: Comprehensive architectural decision records (ADRs)
+            - listitem [ref=f10e110]:
+              - generic [ref=f10e114]: Database migration scripts and entity relationship models
+        - generic [ref=f10e115]:
+          - heading "Primary Technology Ecosystem" [level=3] [ref=f10e116]
+          - generic [ref=f10e117]:
+            - generic [ref=f10e118]:
+              - generic [ref=f10e119]: Node.js
+              - generic [ref=f10e121]: TypeScript
+              - generic [ref=f10e123]: Go
+              - generic [ref=f10e125]: PostgreSQL
+              - generic [ref=f10e127]: Redis
+              - generic [ref=f10e129]: Docker
+              - generic [ref=f10e131]: Kubernetes
+              - generic [ref=f10e133]: GraphQL
+            - generic [ref=f10e135]: Zero deprecated dependencies. 100% strict typing.
+      - generic [ref=f10e141]:
+        - generic [ref=f10e142]:
+          - generic [ref=f10e143]: Sprint Lifecycle
+          - heading "How We Execute This Service" [level=2] [ref=f10e144]
+          - paragraph [ref=f10e145]: From initial architectural mapping to production deployment and telemetry monitoring.
+        - generic [ref=f10e146]:
+          - generic [ref=f10e147]:
+            - generic [ref=f10e148]: PHASE 01
+            - heading "Domain Discovery" [level=3] [ref=f10e149]
+            - paragraph [ref=f10e150]: Mapping core business logic, entity lifecycles, and data relationships.
+          - generic [ref=f10e151]:
+            - generic [ref=f10e152]: PHASE 02
+            - heading "Architecture Blueprint" [level=3] [ref=f10e153]
+            - paragraph [ref=f10e154]: Establishing service contracts, storage schema, and infrastructure topology.
+          - generic [ref=f10e155]:
+            - generic [ref=f10e156]: PHASE 03
+            - heading "Test-Driven Sprint" [level=3] [ref=f10e157]
+            - paragraph [ref=f10e158]: Iterative feature delivery with strict static typing and automated unit tests.
+          - generic [ref=f10e159]:
+            - generic [ref=f10e160]: PHASE 04
+            - heading "Production Hardening" [level=3] [ref=f10e161]
+            - paragraph [ref=f10e162]: Load testing, vulnerability analysis, and zero-downtime staging validation.
+      - generic [ref=f10e164]:
+        - generic [ref=f10e165]:
+          - generic [ref=f10e166]: Practical Clarifications
+          - heading "Frequently Asked Questions" [level=2] [ref=f10e167]
+          - paragraph [ref=f10e168]: Key details regarding IP ownership, sprint cadence, and engineering handover.
+        - generic [ref=f10e169]:
+          - generic [ref=f10e170]:
+            - heading "Do you transfer 100% intellectual property (IP) rights?" [level=4] [ref=f10e171]
+            - paragraph [ref=f10e176]: Yes. All source code, design artifacts, database schemas, and documentation created during the engagement belong entirely to your organization upon project completion.
+          - generic [ref=f10e177]:
+            - heading "How do you guarantee software maintainability?" [level=4] [ref=f10e178]
+            - paragraph [ref=f10e183]: We adhere to strict modular code design, mandatory static type safety, 80%+ test coverage thresholds, and comprehensive documentation to ensure any competent engineering team can maintain the system.
+      - generic [ref=f10e185]:
+        - generic [ref=f10e186]: PROJECT INQUIRIES & ADVISORY
+        - heading "Have a Complex Problem Worth Solving?" [level=2] [ref=f10e190]
+        - paragraph [ref=f10e191]: Whether you are modernizing core enterprise systems, building a high-concurrency commerce platform, or architecting a mission-critical digital product, our senior team is ready.
+        - generic [ref=f10e192]:
+          - link "Start a Project Inquiry" [ref=f10e193] [cursor=pointer]:
+            - /url: /contact
+          - link "Review Engineering Process" [ref=f10e198] [cursor=pointer]:
+            - /url: /process
+        - generic [ref=f10e200]:
+          - generic [ref=f10e201]: 24-Hour Initial Response SLA
+          - generic [ref=f10e206]: Mutual NDA Guaranteed
+          - generic [ref=f10e211]: 100% IP & Code Ownership
+  - contentinfo [ref=f10e216]:
+    - generic [ref=f10e218]:
+      - generic [ref=f10e219]:
+        - generic [ref=f10e223]: All Engineering Systems Operational
+        - generic [ref=f10e224]: "| Latency: 24ms (Global Edge)"
+      - generic [ref=f10e225]:
+        - generic [ref=f10e226]: Next-Gen Enterprise Architecture
+        - link "Consult an Architect" [ref=f10e227] [cursor=pointer]:
+          - /url: /contact
+    - generic [ref=f10e231]:
+      - generic [ref=f10e232]:
+        - generic [ref=f10e233]:
+          - link "NX NEXVISION TECHNOLOGIES" [ref=f10e234] [cursor=pointer]:
+            - /url: /
+            - generic [ref=f10e235]: NX
+            - generic [ref=f10e237]:
+              - generic [ref=f10e238]: NEXVISION
+              - generic [ref=f10e239]: TECHNOLOGIES
+          - paragraph [ref=f10e240]: Engineering high-performance software, modern web platforms, and intelligent business systems for forward-thinking enterprises and ambitious startups.
+          - generic [ref=f10e241]:
+            - generic [ref=f10e242]: Next.js App Router
+            - generic [ref=f10e245]: Type-Safe Core
+        - generic [ref=f10e249]:
+          - heading "Services" [level=3] [ref=f10e250]
+          - list [ref=f10e251]:
+            - listitem [ref=f10e252]:
+              - link "Custom Software Development" [ref=f10e253] [cursor=pointer]:
+                - /url: /services/software-development
+            - listitem [ref=f10e254]:
+              - link "Web Application Development" [ref=f10e255] [cursor=pointer]:
+                - /url: /services/web-development
+            - listitem [ref=f10e256]:
+              - link "Mobile Application Development" [ref=f10e257] [cursor=pointer]:
+                - /url: /services/mobile-app-development
+            - listitem [ref=f10e258]:
+              - link "Business Management Systems" [ref=f10e259] [cursor=pointer]:
+                - /url: /services/business-management-systems
+            - listitem [ref=f10e260]:
+              - link "E-Commerce Solutions" [ref=f10e261] [cursor=pointer]:
+                - /url: /services/ecommerce-solutions
+            - listitem [ref=f10e262]:
+              - link "UI/UX Design & Design Systems" [ref=f10e263] [cursor=pointer]:
+                - /url: /services/ui-ux-design
+            - listitem [ref=f10e264]:
+              - link "View All 8 Services →" [ref=f10e265] [cursor=pointer]:
+                - /url: /services
+        - generic [ref=f10e266]:
+          - heading "Solutions & Work" [level=3] [ref=f10e267]
+          - list [ref=f10e268]:
+            - listitem [ref=f10e269]:
+              - link "Solution Archetypes" [ref=f10e270] [cursor=pointer]:
+                - /url: /solutions
+            - listitem [ref=f10e271]:
+              - link "Work & Systems" [ref=f10e272] [cursor=pointer]:
+                - /url: /work
+            - listitem [ref=f10e273]:
+              - link "7-Step Delivery Process" [ref=f10e274] [cursor=pointer]:
+                - /url: /process
+            - listitem [ref=f10e275]:
+              - link "Engineering Insights" [ref=f10e276] [cursor=pointer]:
+                - /url: /insights
+            - listitem [ref=f10e277]:
+              - link "About & Culture" [ref=f10e278] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=f10e279]:
+              - link "Start a Project" [ref=f10e280] [cursor=pointer]:
+                - /url: /contact
+        - generic [ref=f10e281]:
+          - heading "Legal & Trust" [level=3] [ref=f10e282]
+          - list [ref=f10e283]:
+            - listitem [ref=f10e284]:
+              - link "Privacy Policy" [ref=f10e285] [cursor=pointer]:
+                - /url: /privacy-policy
+            - listitem [ref=f10e286]:
+              - link "Terms of Service" [ref=f10e287] [cursor=pointer]:
+                - /url: /terms-of-service
+            - listitem [ref=f10e288]:
+              - link "Cookie Policy" [ref=f10e289] [cursor=pointer]:
+                - /url: /cookie-policy
+            - listitem [ref=f10e290]:
+              - link "Cookie Preferences" [ref=f10e291] [cursor=pointer]:
+                - /url: /cookie-preferences
+            - listitem [ref=f10e292]:
+              - link "Legal Disclaimer" [ref=f10e293] [cursor=pointer]:
+                - /url: /disclaimer
+            - listitem [ref=f10e294]:
+              - link "Accessibility Statement" [ref=f10e295] [cursor=pointer]:
+                - /url: /accessibility
+      - generic [ref=f10e296]:
+        - paragraph [ref=f10e297]: © 2026 NEXVISION TECHNOLOGIES. All rights reserved.
+        - generic [ref=f10e298]:
+          - generic [ref=f10e299]: Dual-Theme Adaptive
+          - generic [ref=f10e300]: WCAG 2.1 AA Compliant
+          - generic [ref=f10e301]: Global Edge Infrastructure

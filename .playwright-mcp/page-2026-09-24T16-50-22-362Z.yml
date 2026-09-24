@@ -1,0 +1,153 @@
+- generic [active] [ref=f9e1]:
+  - generic [ref=f9e2]:
+    - banner [ref=f9e3]:
+      - generic [ref=f9e4]:
+        - link "NX NEXVISION TECHNOLOGIES" [ref=f9e5] [cursor=pointer]:
+          - /url: /
+          - generic [ref=f9e6]: NX
+          - generic [ref=f9e9]:
+            - generic [ref=f9e10]: NEXVISION
+            - generic [ref=f9e11]: TECHNOLOGIES
+        - navigation "Main Navigation" [ref=f9e12]:
+          - button "Services" [ref=f9e14] [cursor=pointer]
+          - button "Solutions" [ref=f9e19] [cursor=pointer]
+          - link "Work" [ref=f9e23] [cursor=pointer]:
+            - /url: /work
+          - link "Process" [ref=f9e24] [cursor=pointer]:
+            - /url: /process
+          - link "About" [ref=f9e25] [cursor=pointer]:
+            - /url: /about
+          - link "Insights" [ref=f9e26] [cursor=pointer]:
+            - /url: /insights
+        - generic [ref=f9e27]:
+          - button "Switch to light mode" [ref=f9e198] [cursor=pointer]
+          - link "Start a Project" [ref=f9e30] [cursor=pointer]:
+            - /url: /contact
+    - main [ref=f9e35]:
+      - generic [ref=f9e36]:
+        - generic [ref=f9e38]:
+          - generic [ref=f9e39]: START AN ENGAGEMENT
+          - heading "Let’s Build Something Exceptional Together." [level=1] [ref=f9e41]
+          - paragraph [ref=f9e42]: Share your project parameters below. You will be connected directly with a senior systems architect within 24 hours.
+        - generic [ref=f9e45]:
+          - generic [ref=f9e46]:
+            - generic [ref=f9e47]:
+              - text: Direct Communication
+              - heading "No Sales Runarounds. Direct Architect Access." [level=2] [ref=f9e48]
+              - paragraph [ref=f9e49]: We value your time. We do not pass your inquiry through layers of non-technical sales representatives. Your submission is reviewed directly by software engineers who can assess feasibility, architecture, and timeline immediately.
+            - generic [ref=f9e50]:
+              - generic [ref=f9e51]:
+                - generic [ref=f9e52]: Guaranteed Response SLA
+                - paragraph [ref=f9e57]: Every inquiry receives an initial technical assessment within 24 business hours.
+              - generic [ref=f9e58]:
+                - generic [ref=f9e59]: Strict Confidentiality
+                - paragraph [ref=f9e64]: We are glad to execute a mutual Non-Disclosure Agreement (NDA) prior to reviewing proprietary technical documentation.
+              - generic [ref=f9e65]:
+                - generic [ref=f9e66]: Inquiries & Direct Engineering
+                - paragraph [ref=f9e71]: inquiries@nexvisiontech.com
+          - generic [ref=f9e206]:
+            - generic [ref=f9e211]:
+              - heading "Project Inquiry Received" [level=3] [ref=f9e212]
+              - paragraph [ref=f9e213]:
+                - text: Thank you,
+                - strong [ref=f9e214]: Elena Rostova
+                - text: . A senior NEXVISION software architect has been assigned to review your inquiry.
+            - generic [ref=f9e215]:
+              - paragraph [ref=f9e216]: "Target Response SLA: < 24 Hours"
+              - paragraph [ref=f9e217]: "Service: Custom Software Development"
+            - button "Submit Another Inquiry" [ref=f9e218] [cursor=pointer]
+    - contentinfo [ref=f9e112]:
+      - generic [ref=f9e114]:
+        - generic [ref=f9e115]:
+          - generic [ref=f9e119]: All Engineering Systems Operational
+          - generic [ref=f9e120]: "| Latency: 24ms (Global Edge)"
+        - generic [ref=f9e121]:
+          - generic [ref=f9e122]: Next-Gen Enterprise Architecture
+          - link "Consult an Architect" [ref=f9e123] [cursor=pointer]:
+            - /url: /contact
+      - generic [ref=f9e127]:
+        - generic [ref=f9e128]:
+          - generic [ref=f9e129]:
+            - link "NX NEXVISION TECHNOLOGIES" [ref=f9e130] [cursor=pointer]:
+              - /url: /
+              - generic [ref=f9e131]: NX
+              - generic [ref=f9e133]:
+                - generic [ref=f9e134]: NEXVISION
+                - generic [ref=f9e135]: TECHNOLOGIES
+            - paragraph [ref=f9e136]: Engineering high-performance software, modern web platforms, and intelligent business systems for forward-thinking enterprises and ambitious startups.
+            - generic [ref=f9e137]:
+              - generic [ref=f9e138]: Next.js App Router
+              - generic [ref=f9e141]: Type-Safe Core
+          - generic [ref=f9e145]:
+            - heading "Services" [level=3] [ref=f9e146]
+            - list [ref=f9e147]:
+              - listitem [ref=f9e148]:
+                - link "Custom Software Development" [ref=f9e149] [cursor=pointer]:
+                  - /url: /services/software-development
+              - listitem [ref=f9e150]:
+                - link "Web Application Development" [ref=f9e151] [cursor=pointer]:
+                  - /url: /services/web-development
+              - listitem [ref=f9e152]:
+                - link "Mobile Application Development" [ref=f9e153] [cursor=pointer]:
+                  - /url: /services/mobile-app-development
+              - listitem [ref=f9e154]:
+                - link "Business Management Systems" [ref=f9e155] [cursor=pointer]:
+                  - /url: /services/business-management-systems
+              - listitem [ref=f9e156]:
+                - link "E-Commerce Solutions" [ref=f9e157] [cursor=pointer]:
+                  - /url: /services/ecommerce-solutions
+              - listitem [ref=f9e158]:
+                - link "UI/UX Design & Design Systems" [ref=f9e159] [cursor=pointer]:
+                  - /url: /services/ui-ux-design
+              - listitem [ref=f9e160]:
+                - link "View All 8 Services →" [ref=f9e161] [cursor=pointer]:
+                  - /url: /services
+          - generic [ref=f9e162]:
+            - heading "Solutions & Work" [level=3] [ref=f9e163]
+            - list [ref=f9e164]:
+              - listitem [ref=f9e165]:
+                - link "Solution Archetypes" [ref=f9e166] [cursor=pointer]:
+                  - /url: /solutions
+              - listitem [ref=f9e167]:
+                - link "Work & Systems" [ref=f9e168] [cursor=pointer]:
+                  - /url: /work
+              - listitem [ref=f9e169]:
+                - link "7-Step Delivery Process" [ref=f9e170] [cursor=pointer]:
+                  - /url: /process
+              - listitem [ref=f9e171]:
+                - link "Engineering Insights" [ref=f9e172] [cursor=pointer]:
+                  - /url: /insights
+              - listitem [ref=f9e173]:
+                - link "About & Culture" [ref=f9e174] [cursor=pointer]:
+                  - /url: /about
+              - listitem [ref=f9e175]:
+                - link "Start a Project" [ref=f9e176] [cursor=pointer]:
+                  - /url: /contact
+          - generic [ref=f9e177]:
+            - heading "Legal & Trust" [level=3] [ref=f9e178]
+            - list [ref=f9e179]:
+              - listitem [ref=f9e180]:
+                - link "Privacy Policy" [ref=f9e181] [cursor=pointer]:
+                  - /url: /privacy-policy
+              - listitem [ref=f9e182]:
+                - link "Terms of Service" [ref=f9e183] [cursor=pointer]:
+                  - /url: /terms-of-service
+              - listitem [ref=f9e184]:
+                - link "Cookie Policy" [ref=f9e185] [cursor=pointer]:
+                  - /url: /cookie-policy
+              - listitem [ref=f9e186]:
+                - link "Cookie Preferences" [ref=f9e187] [cursor=pointer]:
+                  - /url: /cookie-preferences
+              - listitem [ref=f9e188]:
+                - link "Legal Disclaimer" [ref=f9e189] [cursor=pointer]:
+                  - /url: /disclaimer
+              - listitem [ref=f9e190]:
+                - link "Accessibility Statement" [ref=f9e191] [cursor=pointer]:
+                  - /url: /accessibility
+        - generic [ref=f9e192]:
+          - paragraph [ref=f9e193]: © 2026 NEXVISION TECHNOLOGIES. All rights reserved.
+          - generic [ref=f9e194]:
+            - generic [ref=f9e195]: Dual-Theme Adaptive
+            - generic [ref=f9e196]: WCAG 2.1 AA Compliant
+            - generic [ref=f9e197]: Global Edge Infrastructure
+  - alert [ref=f9e220]
